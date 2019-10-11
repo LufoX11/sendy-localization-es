@@ -1026,7 +1026,7 @@ msgstr "Sin nombre"
 
 #: autoresponders-report.php:426 report.php:552
 msgid "Last 10 unsubscribed"
-msgstr "Últimás 10 bajas de suscripción"
+msgstr "Últimas 10 bajas de suscripción"
 
 #: autoresponders-report.php:427
 msgid "Export subscribers who unsubscribed"
@@ -1143,7 +1143,7 @@ msgid ""
 "into any list in this brand in future will not be imported if they appear in "
 "this list."
 msgstr ""
-"Para bloquear direccónes de correo que pertenecen a dominios determinados (ej. "
+"Para bloquear direcciones de correo que pertenecen a dominios determinados (ej. "
 "correos electrónicos desechables) y evitar que formen parte de las listas que pertenecen a esta marca, "
 "agregue los dominios o correos a la lista de dominios bloqueados. Cualquier dirección de correo que se importe desde un archivo CSV o una API "
 "a cualquier lista perteneciente a esta marca no se agregarán si aparecen en la "
@@ -1226,7 +1226,7 @@ msgid ""
 "Email addresses with domains matching any records in your CSV will also be "
 "removed from all lists in this brand."
 msgstr ""
-"Las direccónes de correo cuyo dominio coincida con alguno de los registros en el archivo CSV "
+"Las direcciones de correo cuyo dominio coincida con alguno de los registros en el archivo CSV "
 "también serán eliminadas de todas las listas que pertenezcan a esta marca." 
 
 #: blacklist-blocked-domains.php:142 blacklist-blocked-domains.php:173
@@ -1252,7 +1252,7 @@ msgid ""
 "Email addresses with domains matching any domains you've entered above will "
 "also be removed from all lists in this brand."
 msgstr ""
-"Las direccónes de correo cuyo dominio coincida con alguno de los ingresados previamente "
+"Las direcciones de correo cuyo dominio coincida con alguno de los ingresados previamente "
 "también serán eliminadas de todas las listas que pertenezcan a esta marca."
 
 #: blacklist-blocked-domains.php:188 blacklist-suppression.php:188
@@ -1274,7 +1274,7 @@ msgid ""
 "CSV will also be removed from all lists in this brand after being imported "
 "into this 'Blocked domains' list. Do you want to proceed?"
 msgstr ""
-"Tenga en cuenta que las direccónes de correo cuyo dominio coincidan con alguno de los registros en "
+"Tenga en cuenta que las direcciones de correo cuyo dominio coincidan con alguno de los registros en "
 "el archivo CSV también serán eliminadas de todas las listas que pertenecen a esta marca luego de ser importadas "
 "a la lista de 'Dominios bloqueados' ¿Está seguro que quiere continuar?"
 
@@ -1284,7 +1284,7 @@ msgid ""
 "provided will also be removed from all lists in this brand after being "
 "imported into this 'Blocked domains' list. Do you want to proceed?"
 msgstr ""
-"Tenga en cuenta que las direccónes de correo cuyo dominio coincidan con alguno de los registros "
+"Tenga en cuenta que las direcciones de correo cuyo dominio coincidan con alguno de los registros "
 "provistos también serán eliminadas de todas las listas que pertenecen a esta marca luego de ser importadas "
 "a la lista de 'Dominios bloqueados'. ¿Está seguro que quiere continuar?"
 
@@ -1295,7 +1295,7 @@ msgid ""
 "list. Any email addresses you import via CSV or API into any list in this "
 "brand in future will not be imported if they appear in this suppression list."
 msgstr ""
-"Si tiene una lista de direccónes de correo que nunca deberían recibir un correo "
+"Si tiene una lista de direcciones de correo que nunca deberían recibir un correo "
 "de alguna de las campañas o autoresponders, impórtelos a la lista de "
 "supresión. Cualquier dirección de correo que se importe desde un archivo CSV o una API "
 "a cualquier lista perteneciente a esta marca no se agregaran si aparecen en la lista de supresión. "
@@ -1309,35 +1309,35 @@ msgid ""
 "Please ensure there is only one column in your CSV containing only email "
 "addresses."
 msgstr ""
-"Por favor, asegúrese que el archivo CSV contiene solamente una columna con las direccónes " 
+"Por favor, asegúrese que el archivo CSV contiene solamente una columna con las direcciones " 
 "de correo."
 
 #: blacklist-suppression.php:121
 msgid "Your CSV should only contain one column containing only email addresses"
-msgstr "El archivo CSV sólo debe tener una columna que incluya las direccónes de correo"
+msgstr "El archivo CSV sólo debe tener una columna que incluya las direcciones de correo"
 
 #: blacklist-suppression.php:140
 msgid ""
 "Email addresses that matches any records in your CSV will also be removed "
 "from all lists in this brand."
 msgstr ""
-"Las direccónes de correo que coincidan con alguno de los registros en el archivo CSV también serán eliminadas "
+"Las direcciones de correo que coincidan con alguno de los registros en el archivo CSV también serán eliminadas "
 "de todas las listas que pertenezcan a esta marca." 
 
 #: blacklist-suppression.php:150
 msgid "Import emails per line"
-msgstr "Importar direccónes de correo por línea"
+msgstr "Importar direcciones de correo por línea"
 
 #: blacklist-suppression.php:161
 msgid "Email addresses"
-msgstr "direccónes de correo"
+msgstr "direcciones de correo"
 
 #: blacklist-suppression.php:171
 msgid ""
 "Email addresses matching any emails you've entered above will also be "
 "removed from all lists in this brand."
 msgstr ""
-"Las direccónes de correo que coincidan con alguna de las direccónes ingresadas previamente también "
+"Las direcciones de correo que coincidan con alguna de las direcciones ingresadas previamente también "
 "serán eliminadas de todas las listas que pertenecen a esta marca."
 
 #: blacklist-suppression.php:186 includes/list/export-skipped-emails.php:30
@@ -1347,7 +1347,7 @@ msgstr "Dirección de correo"
 
 #: blacklist-suppression.php:252
 msgid "No email addresses found."
-msgstr "No se han encontrado direccónes de correo."
+msgstr "No se han encontrado direcciones de correo."
 
 #: blacklist-suppression.php:283
 msgid ""
@@ -1355,7 +1355,7 @@ msgid ""
 "also be removed from all lists in this brand after being imported into this "
 "'Suppression list'. Do you want to proceed?"
 msgstr ""
-"Tenga en cuenta que las direccónes de correo que coincidan con alguno de los registros en el archivo CSV "
+"Tenga en cuenta que las direcciones de correo que coincidan con alguno de los registros en el archivo CSV "
 "también serán eliminadas de todas las listas que pertenecen a esta marca luego de ser importadas "
 "a la 'Lista de supresión' ¿Está seguro que quiere continuar?"
 
@@ -1365,7 +1365,7 @@ msgid ""
 "will also be removed from all lists in this brand after being imported into "
 "this 'Suppression list'. Do you want to proceed?"
 msgstr ""
-"Tenga en cuenta que las direccónes de correo que coincidan con alguno de los correos provistos "
+"Tenga en cuenta que las direcciones de correo que coincidan con alguno de los correos provistos "
 "también serán eliminadas de todas las listas que pertenecen a esta marca luego de ser importadas "
 "a la 'Lista de Supresion' ¿Está seguro que quiere continuar?"
 
@@ -1538,7 +1538,7 @@ msgstr "Eliminación másiva por medio de un archivo CSV"
 
 #: delete-from-list.php:86 unsubscribe-from-list.php:86
 msgid "There should only be 1 column in your CSV containing emails."
-msgstr "Debe haber una sola columna en su archivo CSV que contenga direccónes de correo."
+msgstr "Debe haber una sola columna en su archivo CSV que contenga direcciones de correo."
 
 #: delete-from-list.php:95 unsubscribe-from-list.php:95
 msgid "CSV format example"
@@ -1623,7 +1623,7 @@ msgid ""
 "that domain without having to verify them individually."
 msgstr ""
 "Al verificar un dominio, se puede utilizar cualquier dirección de correo perteneciente al "
-"dominio como remitente sin necesidad de verificar las direccónes individualmente."
+"dominio como remitente sin necesidad de verificar las direcciones individualmente."
 
 #: edit-brand.php:119 new-brand.php:118
 msgid ""
@@ -3107,7 +3107,7 @@ msgstr "Ver la Guía de Introducción"
 
 #: includes/helpers/ses-quota.php:37
 msgid "SES region"
-msgstr "Region SES"
+msgstr "Región SES"
 
 #: includes/helpers/ses-quota.php:38
 msgid "Daily quota"
@@ -4637,7 +4637,7 @@ msgstr "Visite nuestra Guía de Inicio y complete los pasos 7 y 8"
 
 #: send-to.php:1144
 msgid "Or troubleshoot with this FAQ"
-msgstr "O encuentre una solucion al problema en las FAQ"
+msgstr "O encuentre una solución al problema en las FAQ"
 
 #: send-to.php:1147
 msgid "Don't send"
@@ -4819,7 +4819,7 @@ msgid ""
 "Please see Step 5 of the Get Started Guide on how to create a set of IAM "
 "credentials to hook up your Amazon SES account with your Sendy installation"
 msgstr ""
-"Por favor dirijase al Paso 5 de la Guía de Inicio para instrucciones acerca de como crear un grupo de "
+"Por favor diríjase al Paso 5 de la Guía de Inicio para instrucciones acerca de como crear un grupo de "
 "credenciales IAM para conectar su cuenta Amazon SES con su instalación de Sendy"
 
 #: settings.php:273 settings.php:276
@@ -5451,7 +5451,7 @@ msgstr ""
 
 #: update-list.php:228
 msgid "If your CSV is huge and your server constantly timeout"
-msgstr "Si su archivo CSV es demasiado grande y la comunicacion con su servidor caduca repetidamente"
+msgstr "Si su archivo CSV es demasiado grande y la comunicación con su servidor caduca repetidamente"
 
 #: update-list.php:228
 msgid ""
@@ -5466,7 +5466,7 @@ msgid ""
 "To import large CSVs more reliably and have Sendy handle server timeouts, "
 "add a"
 msgstr ""
-"Para importar archivos CSV de gran tamaño en forma confiable y dejar que Sendy maneje la comunicacion con el servidor, "
+"Para importar archivos CSV de gran tamaño en forma confiable y dejar que Sendy maneje la comunicación con el servidor, "
 "agregue un"
 
 #: update-list.php:242
