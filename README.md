@@ -1,2 +1,4 @@
 # sendy-localization-es
-Sendy's translation file to spanish.
+Traducción de Sendy (https://sendy.co/) al idioma español.
+
+-> Actualizado a la version de Sendy 4.0.3.2
