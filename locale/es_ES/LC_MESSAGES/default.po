@@ -931,7 +931,7 @@ msgstr "Único"
 
 #: autoresponders-report.php:210 report.php:303
 msgid "times"
-msgstr "tiempo"
+msgstr "veces"
 
 #: autoresponders-report.php:211 report.php:304
 msgid "not opened"
