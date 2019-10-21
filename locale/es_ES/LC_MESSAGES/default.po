@@ -2002,7 +2002,7 @@ msgid ""
 "newsletters on their own at a fee you preset below."
 msgstr ""
 "Si está creando esta marca para un cliente, puede permitir que su cliente envíe "
-"boletines informativos por si mismo a un costo pre definido a continuación."
+"boletines informativos por sí mismo a un costo pre definido a continuación."
 
 #: edit-brand.php:610 new-brand.php:523
 msgid "Send the"
