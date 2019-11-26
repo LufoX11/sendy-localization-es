@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Sendy\n"
-"POT-Creation-Date: 2019-09-10 15:30+0800\n"
-"PO-Revision-Date: 2019-09-10 15:30+0800\n"
+"POT-Creation-Date: 2019-11-14 22:02+0800\n"
+"PO-Revision-Date: 2019-11-14 22:02+0800\n"
 "Last-Translator: Sendy <hello@sendy.co>\n"
 "Language-Team: Sendy <hello@sendy.co>\n"
 "Language: en\n"
@@ -119,14 +119,14 @@ msgstr ""
 msgid "Okay"
 msgstr "Okay"
 
-#: app.php:120 includes/create/send-now.php:755
+#: app.php:120 includes/create/send-now.php:748
 #: includes/subscribers/subscriber-info.php:389 reports.php:56
-#: scheduled.php:794
+#: scheduled.php:787
 msgid "Campaign"
 msgstr "Campaña"
 
-#: app.php:121 autoresponders-report.php:168 includes/create/send-now.php:756
-#: report.php:211 reports.php:57 scheduled.php:795 send-to.php:588
+#: app.php:121 autoresponders-report.php:168 includes/create/send-now.php:749
+#: report.php:211 reports.php:57 scheduled.php:788 send-to.php:588
 #: send-to.php:617 send-to.php:641
 msgid "Recipients"
 msgstr "Destinatarios"
@@ -200,8 +200,8 @@ msgstr "Enviando"
 msgid "Currently sending your campaign to"
 msgstr "Enviando su campaña a"
 
-#: app.php:269 app.php:394 includes/create/send-now.php:737
-#: includes/create/send-now.php:753 scheduled.php:776 scheduled.php:792
+#: app.php:269 app.php:394 includes/create/send-now.php:730
+#: includes/create/send-now.php:746 scheduled.php:769 scheduled.php:785
 msgid "recipients"
 msgstr "destinatarios"
 
@@ -346,7 +346,7 @@ msgstr "Una dirección de correo válida a la que responder es obligatoria"
 
 #: autoresponders-create.php:53 autoresponders-edit.php:69
 #: create-template.php:36 create.php:47 edit-template.php:51 edit.php:76
-msgid "Your HTML code is required"	
+msgid "Your HTML code is required"
 msgstr "El código HTML es obligatorio"
 
 #: autoresponders-create.php:54 autoresponders-edit.php:70
@@ -441,14 +441,14 @@ msgstr "Asunto del correo electrónico"
 #: autoresponders-create.php:164 autoresponders-create.php:167
 #: autoresponders-edit.php:251 autoresponders-edit.php:254 create.php:140
 #: create.php:143 edit-brand.php:99 edit-brand.php:102 edit.php:149
-#: edit.php:152 new-brand.php:98 new-brand.php:101 settings.php:396
-#: settings.php:399
+#: edit.php:152 new-brand.php:98 new-brand.php:101 settings.php:426
+#: settings.php:429
 msgid "From name"
 msgstr "Remitente"
 
 #: autoresponders-create.php:171 autoresponders-edit.php:258 create.php:147
-#: edit-brand.php:106 edit.php:156 new-brand.php:105 settings.php:403
-#: settings.php:406
+#: edit-brand.php:106 edit.php:156 new-brand.php:105 settings.php:433
+#: settings.php:436
 msgid "From email"
 msgstr "Dirección de correo del remitente"
 
@@ -461,8 +461,8 @@ msgid "name@domain.com"
 msgstr "nombre@dominio.com"
 
 #: autoresponders-create.php:178 autoresponders-edit.php:265 create.php:160
-#: edit-brand.php:226 edit.php:169 new-brand.php:202 settings.php:410
-#: settings.php:413
+#: edit-brand.php:226 edit.php:169 new-brand.php:202 settings.php:440
+#: settings.php:443
 msgid "Reply to email"
 msgstr "Responder"
 
@@ -488,7 +488,7 @@ msgid ""
 "good use case is Google Analytics tracking. Don't include '?' in your query "
 "string."
 msgstr ""
-"opciónalmente se puede adjuntar un query string a todos los links en el boletín informativo. Un "
+"opcionalmente se puede adjuntar un query string a todos los links en el boletín informativo. Un "
 "caso de uso adecuado es el trackeo de Google Analytics. No incluya el caracter '?' en su query "
 "string"
 
@@ -529,7 +529,7 @@ msgstr "Rastrear clics"
 #: autoresponders-create.php:265 autoresponders-edit.php:425 create.php:244
 #: custom-fields.php:199 edit-brand.php:601 edit-brand.php:933
 #: edit-list.php:421 edit.php:327 new-brand.php:514 new-brand.php:779
-#: settings.php:558
+#: settings.php:588
 msgid "Save"
 msgstr "Guardar"
 
@@ -650,7 +650,7 @@ msgstr "Enviar"
 #: includes/subscribers/export-csv.php:175
 #: includes/subscribers/subscriber-info.php:132 login.php:49 report.php:432
 #: report.php:564 report.php:657 report.php:752 search-all-lists.php:44
-#: segment.php:840 settings.php:62 subscribe.php:628 subscribers.php:475
+#: segment.php:840 settings.php:62 subscribe.php:684 subscribers.php:475
 #: subscription.php:141 update-list.php:117
 msgid "Email"
 msgstr "Correo electrónico"
@@ -683,8 +683,8 @@ msgstr "Inscribirse"
 msgid "Preview"
 msgstr "Vista Previa"
 
-#: autoresponders-emails.php:253 includes/create/send-now.php:739
-#: includes/create/send-now.php:757 scheduled.php:778 scheduled.php:796
+#: autoresponders-emails.php:253 includes/create/send-now.php:732
+#: includes/create/send-now.php:750 scheduled.php:771 scheduled.php:789
 msgid "View report"
 msgstr "Ver Reporte"
 
@@ -712,7 +712,7 @@ msgstr "Autoresponders"
 #: includes/reports/export-csv.php:322
 #: includes/subscribers/subscriber-info.php:327 list.php:105 report.php:433
 #: report.php:565 report.php:658 report.php:753 search-all-lists.php:45
-#: segment.php:69 segments-list.php:42 subscribe.php:630 subscribers.php:151
+#: segment.php:69 segments-list.php:42 subscribe.php:686 subscribers.php:151
 #: unsubscribe-from-list.php:77 update-list.php:74
 msgid "List"
 msgstr "Lista"
@@ -991,7 +991,7 @@ msgstr "Exportar suscriptores que abrieron"
 #: includes/subscribers/subscriber-info.php:87 new-brand.php:492 report.php:431
 #: report.php:563 report.php:656 report.php:751 search-all-lists.php:43
 #: segment.php:95 segment.php:227 segment.php:839 settings.php:55
-#: subscribe.php:627 subscribers.php:474 subscription.php:136
+#: subscribe.php:683 subscribers.php:474 subscription.php:136
 #: update-list.php:116
 msgid "Name"
 msgstr "Nombre"
@@ -1211,7 +1211,7 @@ msgstr "El archivo CSV sólo debe tener una columna que incluya los dominios"
 #: blacklist-blocked-domains.php:122 blacklist-suppression.php:122
 #: update-list.php:109
 msgid ""
-"Your CSV columns should be separated by commás, not semi-colons or any other "
+"Your CSV columns should be separated by commas, not semi-colons or any other "
 "characters"
 msgstr ""
 "Las columnas del archivo CSV deben estar separadas por comás únicamente, no por punto y coma"
@@ -1402,16 +1402,16 @@ msgstr "¿Está seguro que quiere limpiar la queue table?"
 msgid "Yes, clear the queue table"
 msgstr "Sí, limpie la queue table"
 
-#: confirm.php:216 subscribe.php:622
+#: confirm.php:216 subscribe.php:678
 msgid "You have a new subscriber!"
 msgstr "¡Tiene un nuevo suscriptor!"
 
-#: confirm.php:219 subscribe.php:625
+#: confirm.php:219 subscribe.php:681
 msgid "The following user signed up to your list"
 msgstr "El siguiente usuario se ha suscrito a su lista"
 
-#: confirm.php:281 confirm.php:330 subscribe.php:537 subscribe.php:591
-#: subscribe.php:815
+#: confirm.php:281 confirm.php:330 subscribe.php:593 subscribe.php:647
+#: subscribe.php:871
 msgid "You're subscribed!"
 msgstr "¡Estás suscrito!"
 
@@ -1533,7 +1533,7 @@ msgid "Please enter at least one combination of name & email"
 msgstr "Por favor ingrese al menos una combinación de nombre y dirección de correo"
 
 #: delete-from-list.php:80
-msgid "máss delete via CSV file"
+msgid "Mass delete via CSV file"
 msgstr "Eliminación másiva por medio de un archivo CSV"
 
 #: delete-from-list.php:86 unsubscribe-from-list.php:86
@@ -1780,11 +1780,11 @@ msgstr "Cree un registro CNAME en el DNS de su dominio personalizado y diríjalo
 msgid "Enable custom domain?"
 msgstr "¿Desea habilitar el dominio personalizado?"
 
-#: edit-brand.php:414 new-brand.php:329 settings.php:427
+#: edit-brand.php:414 new-brand.php:329 settings.php:457
 msgid "GDPR features"
 msgstr "Funcionalidades GDPR"
 
-#: edit-brand.php:418 new-brand.php:333 settings.php:431
+#: edit-brand.php:418 new-brand.php:333 settings.php:461
 msgid ""
 "The <a href=\"https://www.eugdpr.org/the-regulation.html\" target=\"_blank\" "
 "style=\"text-decoration: underline;\">General Data Protection Regulation "
@@ -1802,15 +1802,15 @@ msgstr ""
 "recopila y procesa datos de usuarios de la UE, las funcionalidades GDPR de Sendy le serán "
 "de utilidad."
 
-#: edit-brand.php:420 new-brand.php:335 settings.php:433
+#: edit-brand.php:420 new-brand.php:335 settings.php:463
 msgid "GDPR options"
 msgstr "opciones GDPR"
 
-#: edit-brand.php:424 new-brand.php:339 settings.php:437
+#: edit-brand.php:424 new-brand.php:339 settings.php:467
 msgid "Show me GDPR options where applicable"
 msgstr "Mostrar opciones GDPR cuando corresponda"
 
-#: edit-brand.php:424 new-brand.php:339 settings.php:437
+#: edit-brand.php:424 new-brand.php:339 settings.php:467
 msgid ""
 "By enabling this option, GDPR features will show up in the app where "
 "appropriate. For example, subscribe form dialogues will present you with an "
@@ -1820,11 +1820,11 @@ msgstr ""
 "corresponda. Por ejemplo, Los diálogos en el formulario de suscripción incluirán una "
 "opción para habilitar 'campos GDPR', entre otras. " 
 
-#: edit-brand.php:431 new-brand.php:346 settings.php:444
+#: edit-brand.php:431 new-brand.php:346 settings.php:474
 msgid "GDPR safe switch"
 msgstr "Interruptor de seguridad GDPR"
 
-#: edit-brand.php:435 new-brand.php:350 settings.php:448
+#: edit-brand.php:435 new-brand.php:350 settings.php:478
 msgid ""
 "Only send Campaigns to subscribers with <span class=\"label label-warning"
 "\">GDPR</span> tag"
@@ -1844,7 +1844,7 @@ msgstr ""
 "parámetro 'gdpr' fijado en 'verdadero' se les asignará la etiqueta 'GDPR'. Al habilitar esta opción, "
 "las campañas futuras sólo enviaran información a suscriptores con la etiqueta 'GDPR'."
 
-#: edit-brand.php:441 new-brand.php:356 settings.php:454
+#: edit-brand.php:441 new-brand.php:356 settings.php:484
 msgid ""
 "Only send Autoresponders to subscribers with <span class=\"label label-"
 "warning\">GDPR</span> tag"
@@ -1864,11 +1864,11 @@ msgstr ""
 "parámetro 'gdpr' fijado en 'verdadero' se les asignara la etiqueta 'GDPR'. Al habilitar esta opción, "
 "los Autoresponders futuros sólo enviarán información a los suscriptores con la etiqueta 'GDPR'."
 
-#: edit-brand.php:452 new-brand.php:367 settings.php:465
+#: edit-brand.php:452 new-brand.php:367 settings.php:495
 msgid "Google reCAPTCHA v2"
 msgstr "Google reCAPTCHA v2"
 
-#: edit-brand.php:457 new-brand.php:372 settings.php:470
+#: edit-brand.php:457 new-brand.php:372 settings.php:500
 msgid ""
 "You can use Google's reCAPTCHA v2 to protect your subscription forms from "
 "spam bots. To enable, register your site on <a href=\"https://www.google.com/"
@@ -1884,11 +1884,11 @@ msgstr ""
 "not a robot\" para obtener su 'Site key' y 'Secret key', y luego pegarlas debajo. "
 "reCAPTCHA será deshabilitado si los siguientes campos se encuentran vacíos."
 
-#: edit-brand.php:460 new-brand.php:375 settings.php:473
+#: edit-brand.php:460 new-brand.php:375 settings.php:503
 msgid "Site key"
 msgstr "Site key"
 
-#: edit-brand.php:467 new-brand.php:382 settings.php:480
+#: edit-brand.php:467 new-brand.php:382 settings.php:510
 msgid "Secret key"
 msgstr "Secret key"
 
@@ -1942,15 +1942,15 @@ msgstr "Contraseña"
 msgid "Leave blank to not change it"
 msgstr "Dejar en blanco para no cambiar"
 
-#: edit-brand.php:535 new-brand.php:448 settings.php:361 settings.php:498
+#: edit-brand.php:535 new-brand.php:448 settings.php:391 settings.php:528
 msgid "Miscellaneous"
 msgstr "Misceláneo"
 
-#: edit-brand.php:540 new-brand.php:453 settings.php:505
+#: edit-brand.php:540 new-brand.php:453 settings.php:535
 msgid "Default URL query string"
 msgstr "URL por defecto del query string"
 
-#: edit-brand.php:545 new-brand.php:458 settings.php:510
+#: edit-brand.php:545 new-brand.php:458 settings.php:540
 msgid ""
 "(Default query string to append to all links in your campaigns and "
 "autoresponders. A good use case is Google Analytics tracking. Don't include "
@@ -1960,11 +1960,11 @@ msgstr ""
 "autoresponders. Un caso de uso es el rastreador de Google Analytics. No incluir "
 "'?' en su cadena de consulta.)"
 
-#: edit-brand.php:551 new-brand.php:464 settings.php:516
+#: edit-brand.php:551 new-brand.php:464 settings.php:546
 msgid "Prefix for subject line of test emails"
 msgstr "Prefijo para la línea de asunto en los mails de prueba"
 
-#: edit-brand.php:556 new-brand.php:469 settings.php:521
+#: edit-brand.php:556 new-brand.php:469 settings.php:551
 msgid "(Optionally add a prefix to the subject line of test emails)"
 msgstr "(Opcionalmente agrega un prefijo a la línea de asunto en sus mails de prueba)"
 
@@ -1984,11 +1984,11 @@ msgstr "Ordenar listas y templates por"
 msgid "Date added"
 msgstr "Fecha de creación"
 
-#: edit-brand.php:586 new-brand.php:499 settings.php:531
+#: edit-brand.php:586 new-brand.php:499 settings.php:561
 msgid "No. of rows to show in campaigns, reports and lists"
 msgstr "Num. de líneas a mostrar en campañas, reportes y listas"
 
-#: edit-brand.php:589 new-brand.php:502 settings.php:534
+#: edit-brand.php:589 new-brand.php:502 settings.php:564
 msgid "rows per page"
 msgstr "líneas por página"
 
@@ -2706,11 +2706,11 @@ msgstr "Sin confirmar"
 msgid "No housekeeping needed as no double opt-in lists are found."
 msgstr "No se requiere mantenimiento ya que no se encontraron listas con opción de double opt-in."
 
-#: includes/app/verify-email.php:32 send-to.php:139
+#: includes/app/verify-email.php:47 send-to.php:139
 msgid "Please verify your email address"
 msgstr "Por favor verifique su dirección de correo electrónico"
 
-#: includes/app/verify-email.php:33 send-to.php:140
+#: includes/app/verify-email.php:48 send-to.php:140
 msgid ""
 "Before you can use the email address as your 'From email' to send emails, "
 "please click the following link to verify that the email address belongs to "
@@ -2866,16 +2866,16 @@ msgstr "Noviembre"
 msgid "December"
 msgstr "Diciembre"
 
-#: includes/create/send-now.php:735 scheduled.php:772
+#: includes/create/send-now.php:728 scheduled.php:765
 msgid "Campaign sent"
 msgstr "Campaña enviada"
 
-#: includes/create/send-now.php:737 includes/create/send-now.php:753
-#: scheduled.php:776 scheduled.php:792
+#: includes/create/send-now.php:730 includes/create/send-now.php:746
+#: scheduled.php:769 scheduled.php:785
 msgid "Your campaign has been successfully sent to"
 msgstr "La campaña se ha enviado con éxito a "
 
-#: includes/create/send-now.php:750 scheduled.php:789
+#: includes/create/send-now.php:743 scheduled.php:782
 msgid "Your campaign has been sent"
 msgstr "Su campaña ha sido enviada"
 
@@ -3380,13 +3380,13 @@ msgstr "¡Oops! No se pudo guardar la información, por favor inténtelo de nuev
 msgid "Email already exist in this list."
 msgstr "Dirección de correo ya existente en esta lista."
 
-#: includes/subscribers/edit.php:86 subscribe.php:659 subscribe.php:672
-#: subscribe.php:724
+#: includes/subscribers/edit.php:86 subscribe.php:715 subscribe.php:728
+#: subscribe.php:780
 msgid "Email is suppressed."
 msgstr "Dirección de correo suprimida."
 
 #: includes/subscribers/edit.php:90 subscribe.php:99 subscribe.php:115
-#: subscribe.php:240 subscribe.php:257 subscribe.php:422 subscribe.php:751
+#: subscribe.php:240 subscribe.php:257 subscribe.php:478 subscribe.php:807
 #: unsubscribe.php:101 unsubscribe.php:117 unsubscribe.php:158
 #: unsubscribe.php:226 unsubscribe.php:407
 msgid "Email address is invalid."
@@ -3928,7 +3928,7 @@ msgstr "Dar de baja la suscripción"
 msgid "Resubscribe"
 msgstr "Vovler a suscribirse"
 
-#: search-all-lists.php:121 subscribe.php:696 subscribers.php:565
+#: search-all-lists.php:121 subscribe.php:752 subscribers.php:565
 msgid "Confirm"
 msgstr "Confirmar"
 
@@ -4850,11 +4850,11 @@ msgstr ""
 msgid "Your Amazon SES region"
 msgstr "Su Amazon SES region"
 
-#: settings.php:324
+#: settings.php:354
 msgid "Sending rate"
 msgstr "Índice de envío"
 
-#: settings.php:328
+#: settings.php:358
 msgid ""
 "Sendy sends bulks of emails in parallel per second according to your Amazon "
 "SES send rate. Depending on the capability of your server, your server may "
@@ -4868,23 +4868,23 @@ msgstr ""
 "es muy elevado. Es posible que al bajar el índice de envío obtenga mejor velocidad y "
 "estabilidad."
 
-#: settings.php:329
+#: settings.php:359
 msgid "Adjust sending rate"
 msgstr "Ajustar índice de envío"
 
-#: settings.php:329
+#: settings.php:359
 msgid "Max"
 msgstr "Máximo"
 
-#: settings.php:332
+#: settings.php:362
 msgid "emails per second"
 msgstr "correos por segundo"
 
-#: settings.php:344
+#: settings.php:374
 msgid "PayPal account"
 msgstr "Cuenta de PayPal|"
 
-#: settings.php:348
+#: settings.php:378
 msgid ""
 "If you charge your client(s) a fee for sending newsletters, they'll pay to "
 "this PayPal account. Also, don't forget to turn <strong>Auto Return</strong> "
@@ -4900,27 +4900,27 @@ msgstr ""
 "automáticamente al script de envío una vez completado el pago. Sólo debe usar la URL de su página web "
 "para el <strong>Return URL</strong> para poder guardar."
 
-#: settings.php:349
+#: settings.php:379
 msgid "PayPal email address"
 msgstr "Dirección de correo PayPal"
 
-#: settings.php:352
+#: settings.php:382
 msgid "PayPal account email address"
 msgstr "Dirección de correo asociada a la cuenta de PayPal"
 
-#: settings.php:367
+#: settings.php:397
 msgid "No. of brands to show per page"
 msgstr "Num. de marcas por página"
 
-#: settings.php:370
+#: settings.php:400
 msgid "brands per page"
 msgstr "marcas por página"
 
-#: settings.php:391
+#: settings.php:421
 msgid "Sending preferences"
 msgstr "Preferencias de envio"
 
-#: settings.php:448
+#: settings.php:478
 msgid ""
 "Subscribers who signup through the provided 'Ready-to-use subscribe form' or "
 "the embeddable 'Subscribe form HTML code' with 'gdpr' parameter set to "
@@ -4944,27 +4944,27 @@ msgstr ""
 "'verdadero' serán etiquetados con 'GDPR'. Al habilitar esta opción, los Autoresponders "
 "futuros sólo serán enviados a suscriptores etiquetados con 'GDPR'."
 
-#: settings.php:565
+#: settings.php:595
 msgid "Your license key"
 msgstr "Su license key"
 
-#: settings.php:568
+#: settings.php:598
 msgid "You'll need this license key to"
 msgstr "Necesitará esta license key para"
 
-#: settings.php:568
+#: settings.php:598
 msgid "download the latest version of Sendy on our website"
 msgstr "bajar la última versión de Sendy desde nuestra página de navegador"
 
-#: settings.php:573
+#: settings.php:603
 msgid "Your API key"
 msgstr "Su API key"
 
-#: settings.php:578
+#: settings.php:608
 msgid "Regenerate API key?"
 msgstr "Volver a generar la API key?"
 
-#: settings.php:588
+#: settings.php:618
 msgid ""
 "If you're currently using Sendy's API with this API key, it'll no longer "
 "work. Are you sure you want to regenerate your API key?"
@@ -4972,19 +4972,19 @@ msgstr ""
 "Si esta utilizando la API key con su API de Sendy, ésta dejará de "
 "funcionar ¿Está seguro que quiere volver a generar su API key?"
 
-#: settings.php:595
+#: settings.php:625
 msgid "Your API key has been regenerated!"
 msgstr "¡Su clave API ha sido generada!"
 
-#: settings.php:597
+#: settings.php:627
 msgid "Sorry, unable to regenerate API key. Please try again later!"
 msgstr "Disculpe, no se pudo regenerar la API key ¡Por favor inténtelo de nuevo más tarde!"
 
-#: settings.php:608
+#: settings.php:638
 msgid "Zapier integration"
 msgstr "Integración con Zapier"
 
-#: settings.php:609
+#: settings.php:639
 msgid ""
 "<a href=\"https://zapier.com\" target=\"_blank\" style=\"text-decoration:"
 "underline\">Zapier</a>'s integration with <a href=\"https://zapier.com/"
@@ -5010,15 +5010,15 @@ msgstr ""
 "zapier.com/app/signup\" target=\"_blank\" style=\"text-decoration:underline"
 "\">cree una cuenta gratis en Zapier</a> si aún no tiene una."
 
-#: settings.php:645
+#: settings.php:675
 msgid "Your company name is required"
 msgstr "El nombre de la empresa es obligatorio"
 
-#: settings.php:646
+#: settings.php:676
 msgid "Your name is required"
 msgstr "Su nombre es obligatorio"
 
-#: settings.php:647
+#: settings.php:677
 msgid "A valid email is required"
 msgstr "Una dirección de correo válida es obligatoria"
 
@@ -5034,52 +5034,60 @@ msgstr "El campo País debe ser un código de país de 2 letras válido"
 msgid "Referrer is not a valid URL"
 msgstr "El referente no es una URL válida"
 
-#: subscribe.php:226 subscribe.php:422 subscribe.php:751 unsubscribe.php:143
+#: subscribe.php:226 subscribe.php:478 subscribe.php:807 unsubscribe.php:143
 #: unsubscribe.php:225
 msgid "Some fields are missing."
 msgstr "Algunos campos están vacios."
 
-#: subscribe.php:358 subscribe.php:422 subscribe.php:751
+#: subscribe.php:366 subscribe.php:478 subscribe.php:807
 msgid "Failed reCAPTCHA test."
 msgstr "Falló la prueba de reCAPTCHA."
 
-#: subscribe.php:360 subscribe.php:422 subscribe.php:751
+#: subscribe.php:376 subscribe.php:478 subscribe.php:807
 msgid "Invalid secret key."
 msgstr "La secret key es inválida."
 
-#: subscribe.php:406 subscribe.php:422 subscribe.php:751
+#: subscribe.php:423 subscribe.php:478 subscribe.php:807
 msgid "Consent not given."
 msgstr "No se dió consentimiento."
 
-#: subscribe.php:532 subscribe.php:588
+#: subscribe.php:459 subscribe.php:478 subscribe.php:807
+msgid "API key not passed"
+msgstr "No se proporcionó un API key"
+
+#: subscribe.php:472 subscribe.php:478 subscribe.php:807
+msgid "Invalid API key"
+msgstr "API key inválido"
+
+#: subscribe.php:588 subscribe.php:644
 msgid "Thank you, a confirmation email has been sent to you."
 msgstr "Gracias, se le ha enviado un correo de confirmación."
 
-#: subscribe.php:534 subscribe.php:549
+#: subscribe.php:590 subscribe.php:605
 msgid "A confirmation email had already been sent to you."
 msgstr "Ya se le envió un correo de confirmación."
 
-#: subscribe.php:553
+#: subscribe.php:609
 msgid "You're already subscribed!"
 msgstr "¡Ya está suscrito!"
 
-#: subscribe.php:677
+#: subscribe.php:733
 msgid "Confirm your subscription to"
 msgstr "Confirme su suscripción a"
 
-#: subscribe.php:690
+#: subscribe.php:746
 msgid "Confirm your subscription"
 msgstr "Confirme su suscripción"
 
-#: subscribe.php:693
+#: subscribe.php:749
 msgid "Thanks for subscribing to our email list."
 msgstr "Gracias por suscribirse a nuestra lista de correo electrónico"
 
-#: subscribe.php:694
+#: subscribe.php:750
 msgid "Please confirm your subscription by clicking the link below"
 msgstr "Por favor confirme su suscripción haciendo click en el siguiente link"
 
-#: subscribe.php:698
+#: subscribe.php:754
 msgid "Thank you"
 msgstr "Gracias"
 
@@ -5092,7 +5100,7 @@ msgid "Delete subscribers"
 msgstr "Eliminar suscriptores"
 
 #: subscribers.php:82
-msgid "mass unsubscribe"
+msgid "Mass unsubscribe"
 msgstr "Baja de suscripción másiva"
 
 #: subscribers.php:89
@@ -5351,7 +5359,7 @@ msgid "I have trouble logging in with two-factor authentication"
 msgstr "Tengo inconvenientes iniciando sesión con la autenticación de dos factores"
 
 #: unsubscribe-from-list.php:80
-msgid "mass unsubscribe via CSV file"
+msgid "Mass unsubscribe via CSV file"
 msgstr "Baja de suscripción masiva por medio de archivo CSV"
 
 #: unsubscribe-from-list.php:121
