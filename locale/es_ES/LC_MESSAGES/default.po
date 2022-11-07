@@ -524,13 +524,13 @@ msgstr "Asunto del correo electrónico"
 #: edit.php:163 new-brand.php:98 new-brand.php:101 settings.php:477
 #: settings.php:480
 msgid "From name"
-msgstr "'De (nombre)'"
+msgstr "De (nombre)"
 
 #: autoresponders-create.php:340 autoresponders-edit.php:421 create.php:149
 #: edit-brand.php:106 edit.php:167 new-brand.php:105 settings.php:484
 #: settings.php:487
 msgid "From email"
-msgstr "'De (correo electrónico)'"
+msgstr "De (correo electrónico)"
 
 #: autoresponders-create.php:343 autoresponders-create.php:350
 #: autoresponders-edit.php:424 autoresponders-edit.php:431 create.php:158
