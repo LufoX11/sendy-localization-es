@@ -237,7 +237,7 @@ msgstr "destinatarios"
 
 #: app.php:334 search-campaigns.php:226
 msgid "If sending has stopped, the send was probably timed out by the server, click to resume sending."
-msgstr "Parece que el envío se detuvo debido a que fue pausado por el servidor, haga click para reanudar el envio."
+msgstr "Parece que el envío se detuvo debido a que fue pausado por el servidor, haga click para reanudar el envío."
 
 #: app.php:334 search-campaigns.php:226
 msgid "Resume"
@@ -304,7 +304,7 @@ msgstr "Preparándose para enviar su campaña a"
 
 #: app.php:489
 msgid "This will revert the campaign back to 'Draft'. Are you sure you want to proceed?"
-msgstr "Esto revertirá la campaña a 'Borrador'. ¿Estas seguro que deseas continuar?"
+msgstr "Esto revertirá la campaña a 'Borrador'. ¿Está seguro que desea continuar?"
 
 #: app.php:515 search-campaigns.php:349
 msgid "Preparing to send"
@@ -326,7 +326,7 @@ msgstr "Esto eliminará permanentemente la campaña."
 
 #: app.php:659 reports.php:189 search-campaigns.php:493
 msgid "Download CSV of emails that were not delivered to even after retrying"
-msgstr "Descargar en un archivo CSV los correos electrónicos que no fueron enviados después de reintentar el envio"
+msgstr "Descargar en un archivo CSV los correos electrónicos que no fueron enviados después de reintentar el envío"
 
 #: app.php:659 reports.php:189 search-campaigns.php:493
 msgid "not delivered"
@@ -840,7 +840,7 @@ msgstr "Enviar prueba de correo electrónico"
 
 #: autoresponders-emails.php:342 send-to.php:47
 msgid "Email has been sent!"
-msgstr "¡Se envio el correo electrónico!"
+msgstr "¡Se envió el correo electrónico!"
 
 #: autoresponders-emails.php:347 send-to.php:52
 msgid "Sorry, unable to send. Please try again later!"
@@ -2453,7 +2453,7 @@ msgstr "Inactivo"
 
 #: housekeeping-inactive.php:167
 msgid "Remove subscribers who did not open any campaign ever sent to them?"
-msgstr "¿Desea Eliminar suscriptores que no hayan abierto alguna campaña que se les envio?"
+msgstr "¿Desea eliminar suscriptores que no hayan abierto alguna campaña que se les envió?"
 
 #: housekeeping-inactive.php:168
 msgid "Export subscribers who did not open any campaign ever sent to them?"
@@ -2827,7 +2827,7 @@ msgstr "Conexiones salientes bloqueadas"
 
 #: includes/functions.php:285
 msgid "Your server has a firewall blocking outgoing connections. Please refer to this <a href=\"https://sendy.co/troubleshooting#unlicensed-domain-error\" target=\"_blank\">troubleshooting tip</a>."
-msgstr "El firewall de su servidor esta bloqueando las conexiones salients. Por favor consulte la <a href=\"https://sendy.co/troubleshooting#unlicensed-domain-error\" target=\"_blank\">troubleshooting tip</a>."
+msgstr "El firewall de su servidor está bloqueando las conexiones salients. Por favor consulte la <a href=\"https://sendy.co/troubleshooting#unlicensed-domain-error\" target=\"_blank\">troubleshooting tip</a>."
 
 #: includes/functions.php:290
 msgid "Upgrade your license to 6.x"
@@ -3165,7 +3165,7 @@ msgstr "Usted se encuentra en el \"modo Sandbox\" de Amazon SES."
 
 #: includes/helpers/ses-quota.php:59
 msgid "Please request Amazon to \"<a href=\"http://aws.amazon.com/ses/fullaccessrequest/\" target=\"_blank\">raise your SES Sending Limits</a>\" to be able to send to and from any email address as well as raise your daily sending quota from 200 to any number you need."
-msgstr "Por favor, solicite a Amazon que \"<a href=\"http://aws.amazon.com/ses/fullaccessrequest/\" target=\"_blank\">suba su SES Sending Limit</a>\" para poder enviar correos desde y hacia cualquier dirección y también modificar su cupo diario de envio de correos de 200 a la cantidad que necesite."
+msgstr "Por favor, solicite a Amazon que \"<a href=\"http://aws.amazon.com/ses/fullaccessrequest/\" target=\"_blank\">suba su SES Sending Limit</a>\" para poder enviar correos desde y hacia cualquier dirección y también modificar su cupo diario de envío de correos de 200 a la cantidad que necesite."
 
 #: includes/helpers/ses-quota.php:59 send-to.php:847
 msgid "Please also make sure to select the same 'Region' as what is set in your Sendy Settings (under 'Amazon SES region') when requesting for 'SES Sending Limits' increase."
@@ -3379,7 +3379,7 @@ msgstr "Error al abrir el archivo de datos."
 #: includes/subscribers/import-suppression-list.php:52
 #: includes/subscribers/import-unsubscribe.php:31
 msgid "File is empty."
-msgstr "El archivo esta vacío."
+msgstr "El archivo está vacío."
 
 #: includes/subscribers/subscriber-info.php:69
 msgid "not set"
@@ -4117,7 +4117,7 @@ msgstr "¿Eliminar <span id=\"email-to-delete\" style=\"font-weight:bold;\"></sp
 
 #: search-all-lists.php:208 subscribers.php:664
 msgid "This list only"
-msgstr "Esta lista unicamente"
+msgstr "Únicamente esta lista"
 
 #: search-all-lists.php:209 subscribers.php:665
 msgid "ALL lists in this brand"
@@ -4426,7 +4426,7 @@ msgstr " restante"
 
 #: send-to.php:654 send-to.php:687
 msgid "You can't send more than your monthly limit. Request for your limit to be raised by sending an email to"
-msgstr "No se puede enviar más que lo permitido por su límite mensual. Solicite un incremento de su limite enviando un mail a"
+msgstr "No puede enviar más que lo permitido por su límite mensual. Solicite un incremento de su limite enviando un mail a"
 
 #: send-to.php:658 send-to.php:859
 msgid "Send newsletter now!"
@@ -4886,7 +4886,7 @@ msgstr "Para poder eliminar la marca, campaña, lista o template, ingrese 'DELET
 
 #: settings.php:472
 msgid "Sending preferences"
-msgstr "Preferencias de envio"
+msgstr "Preferencias de envío"
 
 #: settings.php:512
 msgid "The <a href=\"https://www.eugdpr.org/the-regulation.html\" target=\"_blank\" style=\"text-decoration: underline;\">General Data Protection Regulation (GDPR)</a> is a regulation in EU law on data protection and privacy for all individuals within the European Union. The GDPR regulation affects anyone in the world who collect and process the personal data of EU users. If you collect and process data of EU users, these GDPR features will be useful to you."
@@ -4918,7 +4918,7 @@ msgstr "Su API key"
 
 #: settings.php:672
 msgid "Regenerate API key?"
-msgstr "Volver a generar la API key?"
+msgstr "¿Volver a generar la API key?"
 
 #: settings.php:674
 msgid "Please note that tracking links, unsubscribe and web version links are encrypted with your API key, regenerating your API key means they will cease to work for emails that were already sent out. Also, if you currently use Sendy's subscribe form or API for your website or application, please update the API key or forms with the newly generated one. Your old API key will be stored and can be restored at a later time if you change your mind."
@@ -5322,7 +5322,7 @@ msgstr "debe crear los campos personalizados primero"
 
 #: update-list.php:214 update-list.php:285
 msgid "Apply <span class=\"label label-warning\">GDPR</span> tag to imported subscribers?"
-msgstr "Aplicar la etiqueta <span class=\"label label-warning\">GDPR</span> a los suscriptores importados?"
+msgstr "¿Aplicar la etiqueta <span class=\"label label-warning\">GDPR</span> a los suscriptores importados?"
 
 #: update-list.php:214 update-list.php:285
 msgid "If your data includes EU subscribers that were collected in a GDPR compliant manner, check this box to apply a 'GDPR' tag to all of them. In your brand settings, you can turn on the 'GDPR' safe switch' so that Campaigns and Autoresponders will only always send to subscribers tagged with 'GDPR'."
