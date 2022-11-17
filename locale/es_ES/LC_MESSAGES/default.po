@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sendy\n"
 "POT-Creation-Date: 2022-11-15 22:03+0800\n"
-"PO-Revision-Date: 2022-11-16 21:05-0300\n"
+"PO-Revision-Date: 2022-11-16 21:14-0300\n"
 "Last-Translator: Luciano Fantuzzi <luciano@lucianofantuzzi.com>\n"
 "Language-Team: Sendy <hello@sendy.co>\n"
 "Language: es\n"
@@ -261,7 +261,7 @@ msgid ""
 "to resume sending."
 msgstr ""
 "Parece que el envío se detuvo debido a que fue pausado por el servidor, haga "
-"click para reanudar el envío."
+"clic para reanudar el envío."
 
 #: app.php:334 search-campaigns.php:226
 msgid "Resume"
@@ -1227,7 +1227,7 @@ msgstr "Actividad de enlaces"
 
 #: autoresponders-report.php:299 report.php:421
 msgid "Export a CSV of ALL subscribers who clicked"
-msgstr "Exportar un archivo CSV de TODOS los suscriptores que hicieron click"
+msgstr "Exportar un archivo CSV de TODOS los suscriptores que hicieron clic"
 
 #: autoresponders-report.php:300 report.php:422
 msgid "Import ALL subscribers who clicked at least one link into a list"
@@ -3074,7 +3074,7 @@ msgid ""
 "to them."
 msgstr ""
 "El mantenimiento para los 'Suscriptores inactivos' permite eliminar en "
-"volumen a los suscriptores que no hayan abierto o hecho click en alguna "
+"volumen a los suscriptores que no hayan abierto o hecho clic en alguna "
 "campaña que se les haya enviado."
 
 #: housekeeping-inactive.php:118
@@ -3797,8 +3797,8 @@ msgid ""
 "<span class=\"label label-warning\">GDPR</span>."
 msgstr ""
 "Cuando solicite a sus suscriptores que reconfirmen el consentimiento para "
-"futuras campañas, puede utilizar esta etiqueta como enlace. Al hacer click "
-"en el enlace, el suscriptor será etiquetado con <span class=\"label label-"
+"futuras campañas, puede utilizar esta etiqueta como enlace. Al hacer clic en "
+"el enlace, el suscriptor será etiquetado con <span class=\"label label-"
 "warning\">GDPR</span>. En la configuración de su marca, si se activa el "
 "'Interruptor de seguridad GDPR', las futuras campañas y autorespondedores "
 "sólo serán enviados a suscriptores que estén etiquetados como <span class="
@@ -3848,7 +3848,7 @@ msgid ""
 "subscriber list. Then click 'Custom fields' button at the top right."
 msgstr ""
 "Para administrar o consultar las etiquetas de los campos personalizados, "
-"diríjase a cualquier lista de suscriptores. Una vez allí haga click en el "
+"diríjase a cualquier lista de suscriptores. Una vez allí haga clic en el "
 "boton 'Campos personalizados' en la parte superior derecha de la pantalla."
 
 #: includes/helpers/ses-quota.php:27
@@ -4284,7 +4284,7 @@ msgid ""
 msgstr ""
 "Un correo electrónico de verificación que contiene un enlace de confirmación "
 "para completar la verificación fue enviado a la dirección de correo de "
-"inicio de sesión . Por favor haga click en el enlace para completar la "
+"inicio de sesión . Por favor haga clic en el enlace para completar la "
 "verificación, luego actualice esta página y el mensaje debería desparecer."
 
 #: index.php:36 index.php:45
@@ -5244,8 +5244,8 @@ msgid ""
 "results will not update automatically unless you click the refresh button "
 msgstr ""
 "Cuando se agregan o eliminan suscriptores de una lista, los resultados de "
-"segmentación no se actualizarán automáticamente, a menos que haga click en "
-"el boton de actualizar "
+"segmentación no se actualizarán automáticamente, a menos que haga clic en el "
+"boton de actualizar "
 
 #: segment.php:925
 msgid "To have your segmentation results update automatically,"
@@ -6335,8 +6335,7 @@ msgstr "Confirme su suscripción a"
 
 #: subscribe.php:724
 msgid "Please confirm your subscription by clicking the link below"
-msgstr ""
-"Por favor confirme su suscripción haciendo click en el siguiente enlace"
+msgstr "Por favor confirme su suscripción haciendo clic en el siguiente enlace"
 
 #: subscribers.php:79
 msgid "Add subscribers"
