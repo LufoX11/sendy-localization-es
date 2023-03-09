@@ -7,7 +7,7 @@ Formato del lenguaje: Formal.
 
 Si encontrás algo para corregir, hacé un pull request o contactame.
 
-**Actualizado a la versión 6.0.3**
+**Actualizado a la versión 6.0.4**
 
 ## Donaciones
 Si estás conforme con mi trabajo, podés ayudarme a mantener mi licencia de Sendy actualizada para poder continuar trabajando:
@@ -24,7 +24,7 @@ Language format: Formal.
 
 You can make a pull request in case you find something wrong. You can contact me as well.
 
-**Updated to version 6.0.3**
+**Updated to version 6.0.4**
 
 ## Donations
 If you like my job, you can help me keep updated my license so I can continue working on new versions:
