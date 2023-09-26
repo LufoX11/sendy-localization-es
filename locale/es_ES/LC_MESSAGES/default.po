@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sendy\n"
 "POT-Creation-Date: 2023-09-25 15:11+0800\n"
-"PO-Revision-Date: 2023-09-26 19:06-0300\n"
+"PO-Revision-Date: 2023-09-26 19:27-0300\n"
 "Last-Translator: Luciano Fantuzzi <luciano@lucianofantuzzi.com>\n"
 "Language-Team: Sendy <hello@sendy.co>\n"
 "Language: es\n"
@@ -4194,7 +4194,7 @@ msgstr "Campañas"
 
 #: includes/sidebar.php:15
 msgid "Templates"
-msgstr "Templates"
+msgstr "Plantillas"
 
 #: includes/sidebar.php:16 templates.php:37
 msgid "All templates"
