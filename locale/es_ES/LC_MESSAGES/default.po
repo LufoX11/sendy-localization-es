@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Sendy\n"
-"POT-Creation-Date: 2023-09-25 15:11+0800\n"
-"PO-Revision-Date: 2023-09-26 19:27-0300\n"
+"POT-Creation-Date: 2023-11-08 15:13+0800\n"
+"PO-Revision-Date: 2023-12-31 19:43-0300\n"
 "Last-Translator: Luciano Fantuzzi <luciano@lucianofantuzzi.com>\n"
 "Language-Team: Sendy <hello@sendy.co>\n"
 "Language: es\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.4.2\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
 "X-Poedit-Basepath: ../../..\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -84,17 +84,17 @@ msgstr "URL del correo electrónico que desea importar"
 msgid "eg. https://mydomain.com/email.html"
 msgstr "ej. https://midominio.com/correo.html"
 
-#: app.php:118 autoresponders-report.php:752 autoresponders-report.php:1057
-#: delete-from-list.php:115 report.php:439 report.php:946 report.php:1252
+#: app.php:118 autoresponders-report.php:810 autoresponders-report.php:1115
+#: delete-from-list.php:115 report.php:500 report.php:1007 report.php:1313
 #: unsubscribe-from-list.php:115 update-list.php:224
 msgid "Import"
 msgstr "Importar"
 
-#: app.php:122 app.php:842 autoresponders-emails.php:366
-#: autoresponders-report.php:965 custom-fields.php:199 login.php:120
-#: report.php:1161 rules.php:573 rules.php:589 rules.php:606 rules.php:945
-#: search-all-lists.php:223 search-campaigns.php:674 segment.php:881
-#: subscribers.php:679 subscribers.php:747
+#: app.php:122 app.php:850 autoresponders-emails.php:369
+#: autoresponders-report.php:1023 custom-fields.php:199 login.php:120
+#: report.php:1222 rules.php:573 rules.php:589 rules.php:606 rules.php:945
+#: search-all-lists.php:429 search-campaigns.php:674 segment.php:881
+#: subscribers.php:688 subscribers.php:756
 msgid "Close"
 msgstr "Cerrar"
 
@@ -151,7 +151,7 @@ msgstr ""
 "será notificado cuando realicen una nueva campaña"
 
 #: app.php:162 segment.php:942 send-to.php:832 send-to.php:909 settings.php:133
-#: subscribers.php:378 subscribers.php:772 update-list.php:245
+#: subscribers.php:387 subscribers.php:781 update-list.php:245
 msgid "Okay"
 msgstr "Muy bien"
 
@@ -169,7 +169,7 @@ msgstr "Campaña"
 msgid "Recipients"
 msgstr "Destinatarios"
 
-#: app.php:173 app.php:450 app.php:668 app.php:670
+#: app.php:173 app.php:452 app.php:676 app.php:678
 #: autoresponders-emails.php:157 reports.php:58 search-campaigns.php:71
 #: search-campaigns.php:316 search-campaigns.php:502 search-campaigns.php:504
 msgid "Sent"
@@ -185,24 +185,26 @@ msgstr "Aperturas únicas"
 msgid "Unique Clicks"
 msgstr "Clics únicos"
 
-#: app.php:176 app.php:775 autoresponders-emails.php:309
+#: app.php:176 app.php:783 autoresponders-emails.php:312
 #: search-campaigns.php:74 search-campaigns.php:607
 msgid "Duplicate"
 msgstr "Duplicado"
 
-#: app.php:177 app.php:367 app.php:540 app.php:642 app.php:698 app.php:803
-#: autoresponders-edit.php:482 autoresponders-emails.php:310
-#: autoresponders-list.php:312 blacklist-blocked-domains.php:192
-#: blacklist-blocked-domains.php:222 blacklist-suppression.php:192
-#: blacklist-suppression.php:223 custom-fields.php:96 delete-from-list.php:141
-#: edit-brand.php:259 edit.php:251 index.php:120 index.php:330 index.php:391
-#: list.php:161 list.php:235 list.php:314 reports.php:62 reports.php:161
-#: reports.php:203 rules.php:483 rules.php:866 search-all-brands.php:29
-#: search-all-brands.php:135 search-all-lists.php:49 search-all-lists.php:130
+#: app.php:177 app.php:369 app.php:544 app.php:648 app.php:706 app.php:811
+#: autoresponders-edit.php:482 autoresponders-emails.php:313
+#: autoresponders-list.php:312 autoresponders-report.php:281
+#: blacklist-blocked-domains.php:192 blacklist-blocked-domains.php:222
+#: blacklist-suppression.php:192 blacklist-suppression.php:223
+#: custom-fields.php:96 delete-from-list.php:141 edit-brand.php:259
+#: edit.php:251 index.php:120 index.php:330 index.php:391 list.php:161
+#: list.php:235 list.php:314 report.php:392 reports.php:62 reports.php:161
+#: reports.php:205 rules.php:483 rules.php:866 search-all-brands.php:29
+#: search-all-brands.php:135 search-all-lists.php:57 search-all-lists.php:133
+#: search-all-lists.php:210 search-all-lists.php:254 search-all-lists.php:336
 #: search-campaigns.php:75 search-campaigns.php:255 search-campaigns.php:374
 #: search-campaigns.php:476 search-campaigns.php:532 search-campaigns.php:635
 #: segments-list.php:68 segments-list.php:89 send-to.php:1100
-#: subscribers.php:492 subscribers.php:587 templates.php:53 templates.php:91
+#: subscribers.php:501 subscribers.php:596 templates.php:53 templates.php:91
 #: templates.php:135 webhooks-log.php:79
 msgid "Delete"
 msgstr "Eliminar"
@@ -223,39 +225,39 @@ msgstr "Programado"
 msgid "Scheduled on"
 msgstr "Programado el"
 
-#: app.php:315 autoresponders-emails.php:447 autoresponders-report.php:277
-#: includes/reports/main.php:353 report.php:387 reports.php:149
+#: app.php:315 autoresponders-emails.php:450 autoresponders-report.php:335
+#: includes/reports/main.php:353 report.php:448 reports.php:149
 #: search-campaigns.php:207
 msgid "opened"
 msgstr "abierto"
 
-#: app.php:315 app.php:316 autoresponders-emails.php:447
-#: autoresponders-emails.php:448 reports.php:149 reports.php:150
+#: app.php:315 app.php:316 autoresponders-emails.php:450
+#: autoresponders-emails.php:451 reports.php:149 reports.php:150
 #: search-campaigns.php:207 search-campaigns.php:208
 msgid "Tracking disabled"
 msgstr "Rastreo desactivado"
 
-#: app.php:316 autoresponders-emails.php:448 autoresponders-report.php:279
+#: app.php:316 autoresponders-emails.php:451 autoresponders-report.php:337
 #: reports.php:150 search-campaigns.php:208
 msgid "clicked"
 msgstr "cliqueado"
 
-#: app.php:330 autoresponders-emails.php:405 js/create/main.php:32 login.php:72
+#: app.php:332 autoresponders-emails.php:408 js/create/main.php:32 login.php:72
 #: search-campaigns.php:222
 msgid "Sending"
 msgstr "Enviando"
 
-#: app.php:330 search-campaigns.php:222
+#: app.php:332 search-campaigns.php:222
 msgid "Currently sending your campaign to"
 msgstr "Enviando su campaña a"
 
-#: app.php:330 app.php:481 includes/helpers/integrations/rules.php:171
+#: app.php:332 app.php:485 includes/helpers/integrations/rules.php:171
 #: includes/helpers/integrations/rules.php:277 search-campaigns.php:222
 #: search-campaigns.php:347
 msgid "recipients"
 msgstr "destinatarios"
 
-#: app.php:334 search-campaigns.php:226
+#: app.php:336 search-campaigns.php:226
 msgid ""
 "If sending has stopped, the send was probably timed out by the server, click "
 "to resume sending."
@@ -263,50 +265,52 @@ msgstr ""
 "Parece que el envío se detuvo debido a que fue pausado por el servidor, haga "
 "clic para reanudar el envío."
 
-#: app.php:334 search-campaigns.php:226
+#: app.php:336 search-campaigns.php:226
 msgid "Resume"
 msgstr "Reanudar"
 
-#: app.php:338 app.php:484
+#: app.php:340 app.php:488
 msgid "Click to stop the campaign."
 msgstr "Haga clic para detener la campaña."
 
-#: app.php:338 app.php:484
+#: app.php:340 app.php:488
 msgid "Stop"
 msgstr "Detener"
 
-#: app.php:342 app.php:514 includes/list/main.php:90 search-campaigns.php:230
+#: app.php:344 app.php:518 includes/list/main.php:90
+#: includes/subscribers/main.php:273 search-campaigns.php:230
 #: search-campaigns.php:348
 msgid "Checking.."
 msgstr "Verificando.."
 
-#: app.php:371 app.php:544 autoresponders-edit.php:489
-#: autoresponders-emails.php:317 autoresponders-list.php:362
-#: blacklist-blocked-domains.php:226 blacklist-suppression.php:227
-#: custom-fields.php:144 edit.php:258 reports.php:165 reports.php:207
-#: search-campaigns.php:259 search-campaigns.php:378 segments-list.php:93
-#: send-to.php:1107
+#: app.php:373 app.php:548 autoresponders-edit.php:489
+#: autoresponders-emails.php:320 autoresponders-list.php:362
+#: autoresponders-report.php:288 blacklist-blocked-domains.php:226
+#: blacklist-suppression.php:227 custom-fields.php:144 edit.php:258
+#: report.php:399 reports.php:165 reports.php:209 search-campaigns.php:259
+#: search-campaigns.php:378 segments-list.php:93 send-to.php:1107
 msgid "Confirm delete"
 msgstr "Confirme para eliminar"
 
-#: app.php:382 app.php:555 app.php:822 autoresponders-edit.php:501
-#: autoresponders-emails.php:328 autoresponders-list.php:375
-#: blacklist-blocked-domains.php:237 blacklist-suppression.php:238
-#: custom-fields.php:163 edit-brand.php:275 edit.php:270 index.php:410
-#: list.php:333 reports.php:176 reports.php:218 rules.php:965
-#: search-all-brands.php:150 search-all-lists.php:236 search-all-lists.php:249
+#: app.php:384 app.php:559 app.php:830 autoresponders-edit.php:501
+#: autoresponders-emails.php:331 autoresponders-list.php:375
+#: autoresponders-report.php:300 blacklist-blocked-domains.php:237
+#: blacklist-suppression.php:238 custom-fields.php:163 edit-brand.php:275
+#: edit.php:270 index.php:410 list.php:333 report.php:411 reports.php:176
+#: reports.php:220 rules.php:965 search-all-brands.php:150
+#: search-all-lists.php:229 search-all-lists.php:442 search-all-lists.php:455
 #: search-campaigns.php:270 search-campaigns.php:389 search-campaigns.php:654
-#: segments-list.php:111 send-to.php:1119 subscribers.php:692
-#: subscribers.php:705 templates.php:154
+#: segments-list.php:111 send-to.php:1119 subscribers.php:701
+#: subscribers.php:714 templates.php:154
 msgid "Sorry, unable to delete. Please try again later!"
 msgstr "No se pudo eliminar"
 
-#: app.php:391 search-campaigns.php:279
+#: app.php:393 search-campaigns.php:279
 msgid "Only continue if you think that sending has stopped. Resume sending?"
 msgstr ""
 "Siga adelante sólo si considera que el envío se detuvo. ¿Reanudar el envío?"
 
-#: app.php:416
+#: app.php:418
 msgid ""
 "Campaign will stop and no more emails will be sent, are you sure you want to "
 "proceed?"
@@ -314,59 +318,60 @@ msgstr ""
 "La campaña se detendrá y no se enviarán más correos electrónicos. ¿Está "
 "seguro de que desea continuar?"
 
-#: app.php:453 app.php:668 search-campaigns.php:319 search-campaigns.php:502
+#: app.php:455 app.php:676 search-campaigns.php:319 search-campaigns.php:502
 msgid "View report for this campaign"
 msgstr "Ver informe de esta campaña"
 
-#: app.php:464 app.php:586 includes/list/main.php:110 search-campaigns.php:330
+#: app.php:466 app.php:590 includes/list/main.php:110
+#: includes/subscribers/main.php:293 search-campaigns.php:330
 #: search-campaigns.php:420
 msgid "Error retrieving count"
 msgstr "Ha ocurrido un error al recuperar el recuento de datos"
 
-#: app.php:481 search-campaigns.php:347
+#: app.php:485 search-campaigns.php:347
 msgid "Preparing"
 msgstr "Preparando"
 
-#: app.php:481 search-campaigns.php:347
+#: app.php:485 search-campaigns.php:347
 msgid "Preparing to send your campaign to"
 msgstr "Preparándose para enviar su campaña a"
 
-#: app.php:489
+#: app.php:493
 msgid ""
 "This will revert the campaign back to 'Draft'. Are you sure you want to "
 "proceed?"
 msgstr ""
 "Esto revertirá la campaña a 'Borrador'. ¿Está seguro que desea continuar?"
 
-#: app.php:515 search-campaigns.php:349
+#: app.php:519 search-campaigns.php:349
 msgid "Preparing to send"
 msgstr "Preparando para enviar"
 
-#: app.php:616 reports.php:156 search-campaigns.php:450
+#: app.php:622 reports.php:156 search-campaigns.php:450
 msgid "Edit this campaign"
 msgstr "Editar esta campaña"
 
-#: app.php:616 autoresponders-emails.php:308 custom-fields.php:95 index.php:119
-#: list.php:160 rules.php:482 search-all-brands.php:28 search-campaigns.php:450
-#: templates.php:52 webhooks-log.php:78
+#: app.php:622 autoresponders-emails.php:311 custom-fields.php:95 index.php:119
+#: list.php:160 rules.php:482 search-all-brands.php:28 search-all-lists.php:56
+#: search-campaigns.php:450 templates.php:52 webhooks-log.php:78
 msgid "Edit"
 msgstr "Editar"
 
-#: app.php:649 search-campaigns.php:483
+#: app.php:655 search-campaigns.php:483
 msgid "This will permanently delete the campaign."
 msgstr "Esto eliminará permanentemente la campaña."
 
-#: app.php:659 reports.php:189 search-campaigns.php:493
+#: app.php:665 reports.php:189 search-campaigns.php:493
 msgid "Download CSV of emails that were not delivered to even after retrying"
 msgstr ""
 "Descargar en un archivo CSV los correos electrónicos que no fueron enviados "
 "después de reintentar el envío"
 
-#: app.php:659 reports.php:189 search-campaigns.php:493
+#: app.php:665 reports.php:189 search-campaigns.php:493
 msgid "not delivered"
 msgstr "no entregado"
 
-#: app.php:705 search-campaigns.php:539
+#: app.php:713 search-campaigns.php:539
 msgid ""
 "This will permanently delete the campaign and all activity reports for this "
 "campaign. All tracking links, unsubscribe and web version links will no "
@@ -376,34 +381,34 @@ msgstr ""
 "Todos los enlaces de seguimiento, enlace de cancelación de suscripción y "
 "enlaces de versión web también dejarán de funcionar."
 
-#: app.php:718
+#: app.php:726
 msgid "There are no campaigns yet"
 msgstr "Aún no se crearon campañas"
 
-#: app.php:718
+#: app.php:726
 msgid "Send one"
 msgstr "Enviar uno"
 
-#: app.php:738 search-campaigns.php:570
+#: app.php:746 search-campaigns.php:570
 msgid "Duplicate on which brand?"
 msgstr "¿Para qué marca quiere duplicar?"
 
-#: app.php:743 search-campaigns.php:575
+#: app.php:751 search-campaigns.php:575
 msgid "Choose a brand you'd like to duplicate this campaign on"
 msgstr "Elija una marca para la que quiera duplicar esta campaña"
 
-#: app.php:774 autoresponders-list.php:292 autoresponders-report.php:1056
+#: app.php:782 autoresponders-list.php:292 autoresponders-report.php:1114
 #: blacklist-blocked-domains.php:145 blacklist-blocked-domains.php:176
 #: blacklist-suppression.php:145 blacklist-suppression.php:176 list.php:139
-#: report.php:1251 rules.php:224 search-campaigns.php:606
+#: report.php:1312 rules.php:224 search-campaigns.php:606
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: app.php:793 search-campaigns.php:625
+#: app.php:801 search-campaigns.php:625
 msgid "Delete campaign"
 msgstr "Eliminar campaña"
 
-#: app.php:796 search-campaigns.php:628
+#: app.php:804 search-campaigns.php:628
 msgid ""
 "Confirm delete <span id=\"campaign-to-delete\" style=\"font-weight:bold;\"></"
 "span>?"
@@ -411,17 +416,18 @@ msgstr ""
 "¿Confirma la eliminación de <span id=\"campaign-to-delete\" style=\"font-"
 "weight:bold;\"></span>?"
 
-#: app.php:800 app.php:828 index.php:388 index.php:416 list.php:311
-#: list.php:339 rules.php:863 rules.php:971 search-campaigns.php:632
-#: search-campaigns.php:660 templates.php:132 templates.php:160
+#: app.php:808 app.php:836 index.php:388 index.php:416 list.php:311
+#: list.php:339 rules.php:863 rules.php:971 search-all-lists.php:207
+#: search-all-lists.php:235 search-campaigns.php:632 search-campaigns.php:660
+#: templates.php:132 templates.php:160
 msgid "Type the word"
 msgstr "Ingrese la palabra"
 
-#: app.php:836 search-campaigns.php:668
+#: app.php:844 search-campaigns.php:668
 msgid "Your cron job may not be working"
 msgstr "Su cron puede no estar funcionando"
 
-#: app.php:839 search-campaigns.php:671
+#: app.php:847 search-campaigns.php:671
 msgid ""
 "Your campaign has been in 'Preparing' status for more than 5 minutes. This "
 "means that your cron job aren't executing the 'scheduled.php' script to "
@@ -632,7 +638,7 @@ msgstr ""
 "incluyas '?' entre los parámetros porque el sistema lo añade automáticamente."
 
 #: autoresponders-create.php:374 autoresponders-edit.php:455 create.php:197
-#: edit.php:224 send-to.php:1084
+#: edit.php:224 report.php:376 send-to.php:1084
 msgid "Attachments"
 msgstr "Archivos Adjuntos"
 
@@ -654,7 +660,7 @@ msgstr "Habilitar el rastreo de aperturas"
 #: autoresponders-create.php:387 autoresponders-create.php:424
 #: autoresponders-create.php:461 autoresponders-edit.php:525
 #: autoresponders-edit.php:562 autoresponders-edit.php:599
-#: autoresponders-emails.php:451 create.php:209 create.php:246 create.php:283
+#: autoresponders-emails.php:454 create.php:209 create.php:246 create.php:283
 #: create.php:305 edit-brand.php:601 edit-brand.php:711 edit-brand.php:748
 #: edit-brand.php:860 edit.php:294 edit.php:331 edit.php:368 edit.php:390
 #: new-brand.php:482 new-brand.php:581 new-brand.php:607 new-brand.php:708
@@ -670,7 +676,7 @@ msgstr "Deshabilitar el rastreo de aperturas"
 #: autoresponders-create.php:388 autoresponders-create.php:425
 #: autoresponders-create.php:462 autoresponders-edit.php:526
 #: autoresponders-edit.php:563 autoresponders-edit.php:600
-#: autoresponders-emails.php:452 create.php:210 create.php:247 create.php:284
+#: autoresponders-emails.php:455 create.php:210 create.php:247 create.php:284
 #: create.php:306 edit-brand.php:602 edit-brand.php:712 edit-brand.php:749
 #: edit-brand.php:861 edit.php:295 edit.php:332 edit.php:369 edit.php:391
 #: new-brand.php:483 new-brand.php:582 new-brand.php:608 new-brand.php:709
@@ -833,8 +839,8 @@ msgid "Autoresponder emails"
 msgstr "Correos autorespondedores"
 
 #: autoresponders-emails.php:64 autoresponders-list.php:87
-#: autoresponders-report.php:387 autoresponders-report.php:510
-#: autoresponders-report.php:592 autoresponders-report.php:673
+#: autoresponders-report.php:445 autoresponders-report.php:568
+#: autoresponders-report.php:650 autoresponders-report.php:731
 #: custom-fields.php:47 delete-from-list.php:76 housekeeping-inactive.php:116
 #: housekeeping-unconfirmed.php:75 includes/ares-reports/export-csv.php:257
 #: includes/helpers/integrations/rules.php:69
@@ -842,15 +848,16 @@ msgstr "Correos autorespondedores"
 #: includes/helpers/integrations/rules.php:140
 #: includes/helpers/integrations/rules.php:141
 #: includes/reports/export-csv.php:368
-#: includes/subscribers/subscriber-info.php:327 list.php:150 report.php:534
-#: report.php:667 report.php:760 report.php:855 rules.php:517
-#: search-all-lists.php:45 segment.php:72 segments-list.php:42
-#: subscribers.php:150 unsubscribe-from-list.php:76 update-list.php:74
+#: includes/subscribers/subscriber-info.php:327 list.php:150 report.php:595
+#: report.php:728 report.php:821 report.php:916 rules.php:517
+#: search-all-lists.php:50 search-all-lists.php:250 segment.php:72
+#: segments-list.php:42 subscribers.php:151 unsubscribe-from-list.php:76
+#: update-list.php:74
 msgid "List"
 msgstr "Lista"
 
 #: autoresponders-emails.php:64 autoresponders-list.php:87 custom-fields.php:47
-#: search-all-lists.php:35 segments-list.php:42 subscribers.php:150
+#: search-all-lists.php:35 segments-list.php:42 subscribers.php:151
 msgid "Back to lists"
 msgstr "Volver a listas"
 
@@ -878,9 +885,9 @@ msgstr "Crear un nuevo correo electrónico para el autorespondedor"
 msgid "Send"
 msgstr "Enviar"
 
-#: autoresponders-emails.php:156 autoresponders-report.php:386
-#: autoresponders-report.php:509 autoresponders-report.php:591
-#: autoresponders-report.php:672 blacklist-suppression.php:128
+#: autoresponders-emails.php:156 autoresponders-report.php:444
+#: autoresponders-report.php:567 autoresponders-report.php:649
+#: autoresponders-report.php:730 blacklist-suppression.php:128
 #: custom-fields.php:108 includes/ares-reports/export-csv.php:254
 #: includes/ares-reports/export-csv.php:257
 #: includes/helpers/integrations/rules.php:70
@@ -891,9 +898,9 @@ msgstr "Enviar"
 #: includes/subscribers/export-csv.php:201
 #: includes/subscribers/export-suppression-list.php:43
 #: includes/subscribers/sample-csv.php:33
-#: includes/subscribers/subscriber-info.php:132 login.php:49 report.php:533
-#: report.php:666 report.php:759 report.php:854 search-all-lists.php:44
-#: segment.php:843 settings.php:61 subscribers.php:488 subscription.php:141
+#: includes/subscribers/subscriber-info.php:132 login.php:49 report.php:594
+#: report.php:727 report.php:820 report.php:915 search-all-lists.php:249
+#: segment.php:843 settings.php:61 subscribers.php:497 subscription.php:141
 #: update-list.php:117
 msgid "Email"
 msgstr "Correo electrónico"
@@ -923,39 +930,39 @@ msgstr "Por única vez en"
 msgid "signup"
 msgstr "suscribirse"
 
-#: autoresponders-emails.php:302 autoresponders-emails.php:311
+#: autoresponders-emails.php:305 autoresponders-emails.php:314
 #: includes/helpers/integrations/rules.php:171
 #: includes/helpers/integrations/rules.php:277
 #: includes/helpers/integrations/rules.php:333
 msgid "View report"
 msgstr "Ver informe"
 
-#: autoresponders-emails.php:306 templates.php:48
+#: autoresponders-emails.php:309 templates.php:48
 msgid "Preview"
 msgstr "Vista Previa"
 
-#: autoresponders-emails.php:307 autoresponders-emails.php:365
-#: autoresponders-emails.php:421 autoresponders-emails.php:428
+#: autoresponders-emails.php:310 autoresponders-emails.php:368
+#: autoresponders-emails.php:424 autoresponders-emails.php:431
 msgid "Send test email"
 msgstr "Enviar prueba de correo electrónico"
 
-#: autoresponders-emails.php:342 send-to.php:47
+#: autoresponders-emails.php:345 send-to.php:47
 msgid "Email has been sent!"
 msgstr "¡Se envió el correo electrónico!"
 
-#: autoresponders-emails.php:347 send-to.php:52
+#: autoresponders-emails.php:350 send-to.php:52
 msgid "Sorry, unable to send. Please try again later!"
 msgstr "No se pudo enviar"
 
-#: autoresponders-emails.php:356 send-to.php:326
+#: autoresponders-emails.php:359 send-to.php:326
 msgid "Test email(s)"
 msgstr "Test de correo(s) electrónico(s)"
 
-#: autoresponders-emails.php:359 send-to.php:329
+#: autoresponders-emails.php:362 send-to.php:329
 msgid "Email addresses, separated by commas"
 msgstr "Direcciones de correo electrónico, separadas por comas"
 
-#: autoresponders-emails.php:434 js/create/main.php:61
+#: autoresponders-emails.php:437 js/create/main.php:61
 msgid ""
 "Please find Amazon's email in your inbox as well as spam folder. They will "
 "include a reason for the suspension. You will need to reply to that email in "
@@ -970,7 +977,7 @@ msgstr ""
 "el servicio de ayuda de Amazon a través del <a href='https://forums.aws."
 "amazon.com/forum.jspa?forumID=90' target='_blank'>Amazon SES Forum</a>"
 
-#: autoresponders-emails.php:434 js/create/main.php:61
+#: autoresponders-emails.php:437 js/create/main.php:61
 msgid ""
 "For more information on Amazon SES suspension, please see <a href='http://"
 "docs.aws.amazon.com/ses/latest/DeveloperGuide/e-faq-sp.html' "
@@ -982,11 +989,11 @@ msgstr ""
 "target='_blank'>http://docs.aws.amazon.com/ses/latest/DeveloperGuide/e-faq-"
 "sp.html"
 
-#: autoresponders-emails.php:520
+#: autoresponders-emails.php:523
 msgid "No autoresponder emails are set up."
 msgstr "No se configuran correos electrónicos del autorespondedor."
 
-#: autoresponders-emails.php:528
+#: autoresponders-emails.php:531
 msgid "Back to autoresponders list"
 msgstr "Volver a la lista del autorespondedores"
 
@@ -994,8 +1001,8 @@ msgstr "Volver a la lista del autorespondedores"
 msgid "Autoresponder name is required"
 msgstr "El nombre del autoresponder es obligatorio"
 
-#: autoresponders-list.php:85 includes/rules/get_ares.php:9 subscribers.php:169
-#: subscribers.php:171
+#: autoresponders-list.php:85 includes/rules/get_ares.php:9 subscribers.php:166
+#: subscribers.php:169
 msgid "Autoresponders"
 msgstr "Autorespondedores"
 
@@ -1138,17 +1145,17 @@ msgstr "No se encuentran autorespondedores"
 msgid "No opens yet!"
 msgstr "¡Aún no hay aperturas!"
 
-#: autoresponders-report.php:35 autoresponders-report.php:277
-#: autoresponders-report.php:278 report.php:61 report.php:387 report.php:388
+#: autoresponders-report.php:35 autoresponders-report.php:335
+#: autoresponders-report.php:336 report.php:61 report.php:448 report.php:449
 msgid "Tracking disabled for opens"
 msgstr "Rastreo deshabilitado para aperturas"
 
-#: autoresponders-report.php:36 autoresponders-report.php:355
+#: autoresponders-report.php:36 autoresponders-report.php:413
 msgid "There are no links for this autoresponder."
 msgstr "No hay enlaces para este autorespondedor."
 
-#: autoresponders-report.php:36 autoresponders-report.php:279 report.php:62
-#: report.php:398
+#: autoresponders-report.php:36 autoresponders-report.php:337 report.php:62
+#: report.php:459
 msgid "Tracking disabled for clicks"
 msgstr "Rastreo deshabilitado para cliqueos"
 
@@ -1168,27 +1175,27 @@ msgstr "Sin abrir"
 msgid "Clicked"
 msgstr "Cliqueado"
 
-#: autoresponders-report.php:206 autoresponders-report.php:441
-#: autoresponders-report.php:550 includes/subscribers/subscriber-info.php:59
-#: list.php:157 report.php:266 report.php:588 report.php:707 report.php:717
-#: search-all-lists.php:81 search-all-lists.php:148 subscribers.php:451
-#: subscribers.php:535 subscribers.php:605 unsubscribe.php:401
+#: autoresponders-report.php:206 autoresponders-report.php:499
+#: autoresponders-report.php:608 includes/subscribers/subscriber-info.php:59
+#: list.php:157 report.php:266 report.php:649 report.php:768 report.php:778
+#: search-all-lists.php:287 search-all-lists.php:354 subscribers.php:460
+#: subscribers.php:544 subscribers.php:614 unsubscribe.php:401
 msgid "Unsubscribed"
 msgstr "Bajas de suscripción"
 
-#: autoresponders-report.php:217 autoresponders-report.php:443
-#: autoresponders-report.php:631 includes/subscribers/subscriber-info.php:61
-#: list.php:158 report.php:277 report.php:590 report.php:799 report.php:809
-#: search-all-lists.php:83 subscribers.php:452 subscribers.php:537
-#: subscribers.php:543
+#: autoresponders-report.php:217 autoresponders-report.php:501
+#: autoresponders-report.php:689 includes/subscribers/subscriber-info.php:61
+#: list.php:158 report.php:277 report.php:651 report.php:860 report.php:870
+#: search-all-lists.php:289 subscribers.php:461 subscribers.php:546
+#: subscribers.php:552
 msgid "Bounced"
 msgstr "Rebotado"
 
-#: autoresponders-report.php:228 autoresponders-report.php:445
-#: autoresponders-report.php:712 includes/subscribers/subscriber-info.php:63
-#: report.php:288 report.php:592 report.php:894 report.php:904
-#: search-all-lists.php:85 subscribers.php:453 subscribers.php:539
-#: subscribers.php:545
+#: autoresponders-report.php:228 autoresponders-report.php:503
+#: autoresponders-report.php:770 includes/subscribers/subscriber-info.php:63
+#: report.php:288 report.php:653 report.php:955 report.php:965
+#: search-all-lists.php:291 subscribers.php:462 subscribers.php:548
+#: subscribers.php:554
 msgid "Marked as spam"
 msgstr "Marcado como correo no deseado"
 
@@ -1204,79 +1211,79 @@ msgstr "Ver en el navegador"
 msgid "From"
 msgstr "De"
 
-#: autoresponders-report.php:261 report.php:366
+#: autoresponders-report.php:261 report.php:366 search-all-lists.php:262
 msgid "subscribers"
 msgstr "suscriptores"
 
-#: autoresponders-report.php:277 report.php:387
+#: autoresponders-report.php:335 report.php:448
 msgid "unique"
 msgstr "clics únicos"
 
-#: autoresponders-report.php:277 report.php:387
+#: autoresponders-report.php:335 report.php:448
 msgid "times"
 msgstr "veces"
 
-#: autoresponders-report.php:278 report.php:388
+#: autoresponders-report.php:336 report.php:449
 msgid "not opened"
 msgstr "sin abrir"
 
-#: autoresponders-report.php:279 report.php:398
+#: autoresponders-report.php:337 report.php:459
 msgid "clicked a link"
 msgstr "enlace cliqueado"
 
-#: autoresponders-report.php:285 report.php:404
+#: autoresponders-report.php:343 report.php:465
 msgid "unsubscribed"
 msgstr "baja de suscripción"
 
-#: autoresponders-report.php:286 report.php:406
+#: autoresponders-report.php:344 report.php:467
 msgid "bounced"
 msgstr "rebotado"
 
-#: autoresponders-report.php:287 report.php:408
+#: autoresponders-report.php:345 report.php:469
 msgid "marked as spam"
 msgstr "marcado como correo no deseado"
 
-#: autoresponders-report.php:296 report.php:417
+#: autoresponders-report.php:354 report.php:478
 msgid "Link activity"
 msgstr "Actividad de enlaces"
 
-#: autoresponders-report.php:299 report.php:421
+#: autoresponders-report.php:357 report.php:482
 msgid "Export a CSV of ALL subscribers who clicked"
 msgstr "Exportar un archivo CSV de TODOS los suscriptores que hicieron clic"
 
-#: autoresponders-report.php:300 report.php:422
+#: autoresponders-report.php:358 report.php:483
 msgid "Import ALL subscribers who clicked at least one link into a list"
 msgstr ""
 "Importar a una lista a TODOS los suscriptores que hayan hecho clic en al "
 "menos un enlace"
 
-#: autoresponders-report.php:310 report.php:433
+#: autoresponders-report.php:368 report.php:494
 msgid "Link (URL)"
 msgstr "Enlace (URL)"
 
-#: autoresponders-report.php:311 report.php:434
+#: autoresponders-report.php:369 report.php:495
 msgid "Unique"
 msgstr "Único"
 
-#: autoresponders-report.php:312 report.php:435
+#: autoresponders-report.php:370 report.php:496
 msgid "Total"
 msgstr "Total"
 
-#: autoresponders-report.php:373 report.php:517
+#: autoresponders-report.php:431 report.php:578
 msgid "Last 10 opened"
 msgstr "Últimos 10 abiertos"
 
-#: autoresponders-report.php:375 report.php:521
+#: autoresponders-report.php:433 report.php:582
 msgid "Export a CSV of ALL subscribers who opened"
 msgstr "Eportar un archivo CSV de TODOS los suscriptores que abrieron"
 
-#: autoresponders-report.php:376 report.php:522
+#: autoresponders-report.php:434 report.php:583
 msgid "Import ALL subscribers who opened this campaign into a list"
 msgstr ""
 "Importar a una lista a TODOS los suscriptores que abrieron esta campaña"
 
-#: autoresponders-report.php:385 autoresponders-report.php:508
-#: autoresponders-report.php:590 autoresponders-report.php:671
+#: autoresponders-report.php:443 autoresponders-report.php:566
+#: autoresponders-report.php:648 autoresponders-report.php:729
 #: custom-fields.php:101 edit-brand.php:834
 #: includes/ares-reports/export-csv.php:254
 #: includes/ares-reports/export-csv.php:257
@@ -1287,161 +1294,161 @@ msgstr ""
 #: includes/subscribers/export-csv.php:190
 #: includes/subscribers/export-csv.php:201
 #: includes/subscribers/sample-csv.php:33
-#: includes/subscribers/subscriber-info.php:87 new-brand.php:682 report.php:532
-#: report.php:665 report.php:758 report.php:853 rules.php:479
-#: search-all-lists.php:43 segment.php:98 segment.php:230 segment.php:842
-#: settings.php:54 settings.php:619 subscribers.php:487 subscription.php:136
+#: includes/subscribers/subscriber-info.php:87 new-brand.php:682 report.php:593
+#: report.php:726 report.php:819 report.php:914 rules.php:479
+#: search-all-lists.php:248 segment.php:98 segment.php:230 segment.php:842
+#: settings.php:54 settings.php:619 subscribers.php:496 subscription.php:136
 #: update-list.php:116 webhooks-log.php:75
 msgid "Name"
 msgstr "Nombre"
 
-#: autoresponders-report.php:388 autoresponders-report.php:511
-#: autoresponders-report.php:593 autoresponders-report.php:674
+#: autoresponders-report.php:446 autoresponders-report.php:569
+#: autoresponders-report.php:651 autoresponders-report.php:732
 #: blacklist-blocked-domains.php:189 blacklist-suppression.php:189
 #: housekeeping-inactive.php:117 housekeeping-unconfirmed.php:76
 #: includes/subscribers/export-csv.php:190
 #: includes/subscribers/export-csv.php:201
-#: includes/subscribers/subscriber-info.php:328 report.php:535 report.php:668
-#: report.php:761 report.php:856 search-all-lists.php:47 subscribers.php:490
+#: includes/subscribers/subscriber-info.php:328 report.php:596 report.php:729
+#: report.php:822 report.php:917 search-all-lists.php:252 subscribers.php:499
 msgid "Status"
 msgstr "Estado"
 
-#: autoresponders-report.php:410 autoresponders-report.php:480 report.php:635
+#: autoresponders-report.php:468 autoresponders-report.php:538 report.php:696
 msgid "No one opened yet."
 msgstr "No se registran aperturas."
 
-#: autoresponders-report.php:439 includes/subscribers/subscriber-info.php:57
-#: report.php:586 search-all-lists.php:79 search-all-lists.php:144
-#: search-all-lists.php:154 search-all-lists.php:160 subscribers.php:533
-#: subscribers.php:601 subscribers.php:611 subscribers.php:617
+#: autoresponders-report.php:497 includes/subscribers/subscriber-info.php:57
+#: report.php:647 search-all-lists.php:285 search-all-lists.php:350
+#: search-all-lists.php:360 search-all-lists.php:366 subscribers.php:542
+#: subscribers.php:610 subscribers.php:620 subscribers.php:626
 msgid "Subscribed"
 msgstr "Suscripto"
 
-#: autoresponders-report.php:448 autoresponders-report.php:532
-#: autoresponders-report.php:613 report.php:595 report.php:689 report.php:781
-#: report.php:876 search-all-lists.php:90 subscribers.php:548
+#: autoresponders-report.php:506 autoresponders-report.php:590
+#: autoresponders-report.php:671 report.php:656 report.php:750 report.php:842
+#: report.php:937 search-all-lists.php:296 subscribers.php:557
 msgid "No name"
 msgstr "Sin nombre"
 
-#: autoresponders-report.php:499 report.php:654
+#: autoresponders-report.php:557 report.php:715
 msgid "Last 10 unsubscribed"
 msgstr "Últimas 10 bajas de suscripción"
 
-#: autoresponders-report.php:500
+#: autoresponders-report.php:558
 msgid "Export subscribers who unsubscribed"
 msgstr "Exportar suscriptores que se desuscribieron"
 
-#: autoresponders-report.php:512 autoresponders-report.php:594
-#: autoresponders-report.php:675 custom-fields.php:72 custom-fields.php:138
-#: report.php:669 report.php:762 report.php:857
+#: autoresponders-report.php:570 autoresponders-report.php:652
+#: autoresponders-report.php:733 custom-fields.php:72 custom-fields.php:138
+#: report.php:730 report.php:823 report.php:918
 msgid "Date"
 msgstr "Fecha"
 
-#: autoresponders-report.php:562
+#: autoresponders-report.php:620
 msgid "No one unsubscribed from this autoresponder!"
 msgstr "¡Nadie se desuscribió de este autorespondedor!"
 
-#: autoresponders-report.php:581 report.php:747
+#: autoresponders-report.php:639 report.php:808
 msgid "Last 10 bounced emails"
 msgstr "Últimos 10 correos rebotados"
 
-#: autoresponders-report.php:582
+#: autoresponders-report.php:640
 msgid "Export subscribers who bounced"
 msgstr "Exportar suscriptores cuyos correos rebotaron"
 
-#: autoresponders-report.php:643
+#: autoresponders-report.php:701
 msgid "No emails bounced from this autoresponder!"
 msgstr "¡Ningún correo ha rebotado de este autorespondedor!"
 
-#: autoresponders-report.php:662 report.php:842
+#: autoresponders-report.php:720 report.php:903
 msgid "Last 10 marked as spam"
 msgstr "Últimos 10 marcados como correo no deseado"
 
-#: autoresponders-report.php:663
+#: autoresponders-report.php:721
 msgid "Export subscribers who marked your email as spam"
 msgstr "Exportar suscriptores que marcaron el correo como no deseado"
 
-#: autoresponders-report.php:724 report.php:916
+#: autoresponders-report.php:782 report.php:977
 msgid "No one marked your email as spam!"
 msgstr "¡Nadie ha marcado el correo como no deseado!"
 
-#: autoresponders-report.php:743 report.php:937
+#: autoresponders-report.php:801 report.php:998
 msgid "All countries"
 msgstr "Todos los países"
 
-#: autoresponders-report.php:747 includes/ares-reports/export-csv.php:257
+#: autoresponders-report.php:805 includes/ares-reports/export-csv.php:257
 #: includes/reports/export-csv.php:368 includes/subscribers/export-csv.php:190
 #: includes/subscribers/export-csv.php:201
 #: includes/subscribers/subscriber-info.php:208
-#: includes/subscribers/subscriber-info.php:392 report.php:941 segment.php:100
+#: includes/subscribers/subscriber-info.php:392 report.php:1002 segment.php:100
 #: segment.php:230
 msgid "Country"
 msgstr "País"
 
-#: autoresponders-report.php:748 includes/reports/export-csv.php:330
-#: includes/subscribers/subscriber-info.php:390 report.php:942
+#: autoresponders-report.php:806 includes/reports/export-csv.php:330
+#: includes/subscribers/subscriber-info.php:390 report.php:1003
 msgid "Opens"
 msgstr "Aperturas"
 
-#: autoresponders-report.php:751 blacklist-blocked-domains.php:78
-#: blacklist-suppression.php:78 housekeeping-unconfirmed.php:81 report.php:438
-#: report.php:945 segment.php:834 subscribers.php:127
+#: autoresponders-report.php:809 blacklist-blocked-domains.php:78
+#: blacklist-suppression.php:78 housekeeping-unconfirmed.php:81 report.php:499
+#: report.php:1006 segment.php:834 subscribers.php:127
 msgid "Export"
 msgstr "Exportar"
 
-#: autoresponders-report.php:822 report.php:1017
+#: autoresponders-report.php:880 report.php:1078
 msgid "Export a CSV of ALL subscribers from"
 msgstr "Exportar un archivo CSV de TODOS los suscriptores de"
 
-#: autoresponders-report.php:823 report.php:1018
+#: autoresponders-report.php:881 report.php:1079
 msgid "Import ALL subscribers who opened this campaign into a list from"
 msgstr ""
 "Importar a una lista a TODOS los suscriptores que abrieron esta campaña desde"
 
-#: autoresponders-report.php:846 report.php:1042
+#: autoresponders-report.php:904 report.php:1103
 msgid "Top 10 countries"
 msgstr "Los 10 países principales"
 
-#: autoresponders-report.php:938 report.php:1134
+#: autoresponders-report.php:996 report.php:1195
 msgid "No countries detected yet."
 msgstr "Aún no se detectaron países."
 
-#: autoresponders-report.php:959 report.php:1155 search-all-lists.php:217
-#: segment.php:875 subscribers.php:673
+#: autoresponders-report.php:1017 report.php:1216 search-all-lists.php:423
+#: segment.php:875 subscribers.php:682
 msgid "Subscriber info"
 msgstr "Información de suscriptor"
 
-#: autoresponders-report.php:971 report.php:1167 search-all-lists.php:255
-#: segment.php:887 subscribers.php:711
+#: autoresponders-report.php:1029 report.php:1228 search-all-lists.php:461
+#: segment.php:887 subscribers.php:720
 msgid "Fetching"
 msgstr "Obteniendo"
 
-#: autoresponders-report.php:981 report.php:1177 search-all-lists.php:265
-#: segment.php:897 subscribers.php:721
+#: autoresponders-report.php:1039 report.php:1238 search-all-lists.php:471
+#: segment.php:897 subscribers.php:730
 msgid ""
 "Oops, there was an error getting the subscriber's info. Please try again "
 "later."
 msgstr ""
 "Se produjo un error al intentar recuperar la información de los suscriptores."
 
-#: autoresponders-report.php:993 report.php:1189
+#: autoresponders-report.php:1051 report.php:1250
 msgid "Import into which list?"
 msgstr "¿A qué lista importar?"
 
-#: autoresponders-report.php:998 report.php:1194
+#: autoresponders-report.php:1056 report.php:1255
 msgid "Choose a list you'd like to import these subscribers into"
 msgstr "Elija una lista a la que quieras importar estos suscriptores"
 
-#: autoresponders-report.php:1024 list.php:105 new-list.php:43 report.php:1220
+#: autoresponders-report.php:1082 list.php:105 new-list.php:43 report.php:1281
 msgid "The name of your new list"
 msgstr "El nombre de su nueva lista"
 
-#: autoresponders-report.php:1033 autoresponders-report.php:1098
-#: report.php:1228 report.php:1296
+#: autoresponders-report.php:1091 autoresponders-report.php:1156
+#: report.php:1289 report.php:1357
 msgid "Create a new list"
 msgstr "Crear una nueva lista"
 
-#: autoresponders-report.php:1040 report.php:1235
+#: autoresponders-report.php:1098 report.php:1296
 msgid ""
 "Now importing. If the number of subscribers are huge, it may take a little "
 "longer."
@@ -1449,7 +1456,7 @@ msgstr ""
 "Ahora se está importando. Si el número de suscriptores es enorme, puede "
 "tardar un poco más."
 
-#: autoresponders-report.php:1090 report.php:1288
+#: autoresponders-report.php:1148 report.php:1349
 msgid "Choose an existing list"
 msgstr "Elija una nueva lista"
 
@@ -1854,7 +1861,7 @@ msgid "A custom field name of less than<br/>30 characters is required"
 msgstr ""
 "Se requiere un nombre de campo personalizado<br/> menor a 30 caracteres"
 
-#: custom-fields.php:45 subscribers.php:174
+#: custom-fields.php:45 subscribers.php:156
 msgid "Custom fields"
 msgstr "Campos personalizados"
 
@@ -2679,7 +2686,7 @@ msgstr "En uso"
 msgid "Reset limit on which day of the month?"
 msgstr "¿En que día del mes se restablecerá el límite?"
 
-#: edit-list.php:50 list.php:234 subscribers.php:151
+#: edit-list.php:50 list.php:234 search-all-lists.php:132 subscribers.php:180
 msgid "List settings"
 msgstr "Configuración de lista"
 
@@ -3226,7 +3233,7 @@ msgstr ""
 "¿Desea eliminar de todas las listas a aquellos suscriptores que no hayan "
 "confirmado su suscripción?"
 
-#: housekeeping-unconfirmed.php:80 subscribers.php:443
+#: housekeeping-unconfirmed.php:80 subscribers.php:452
 msgid "All"
 msgstr "Todos"
 
@@ -3259,8 +3266,8 @@ msgstr ""
 "suscripción?"
 
 #: housekeeping-unconfirmed.php:143 includes/subscribers/subscriber-info.php:65
-#: search-all-lists.php:87 search-all-lists.php:156 subscribers.php:450
-#: subscribers.php:541 subscribers.php:613
+#: search-all-lists.php:293 search-all-lists.php:362 subscribers.php:459
+#: subscribers.php:550 subscribers.php:622
 msgid "Unconfirmed"
 msgstr "Sin confirmar"
 
@@ -3338,8 +3345,8 @@ msgstr "Inscripto de"
 
 #: includes/ares-reports/export-csv.php:254 includes/reports/export-csv.php:365
 #: includes/reports/export-csv.php:368 includes/subscribers/export-csv.php:190
-#: includes/subscribers/export-csv.php:201 list.php:153 segment.php:103
-#: segment.php:237 subscribers.php:447
+#: includes/subscribers/export-csv.php:201 list.php:153 search-all-lists.php:53
+#: segment.php:103 segment.php:237 subscribers.php:456
 msgid "GDPR"
 msgstr "GDPR"
 
@@ -4123,8 +4130,8 @@ msgstr "Fecha de inscripción"
 
 #: includes/reports/export-csv.php:368 includes/subscribers/export-csv.php:190
 #: includes/subscribers/export-csv.php:201
-#: includes/subscribers/subscriber-info.php:184 search-all-lists.php:46
-#: segment.php:97 segment.php:230 segment.php:844 subscribers.php:489
+#: includes/subscribers/subscriber-info.php:184 search-all-lists.php:251
+#: segment.php:97 segment.php:230 segment.php:844 subscribers.php:498
 msgid "Last activity"
 msgstr "Última actividad"
 
@@ -4366,7 +4373,8 @@ msgstr "No se pudo enviar el correo de verificación"
 msgid "Search brands"
 msgstr "Buscar marcas"
 
-#: index.php:113 list.php:149 search-all-brands.php:24 segments-list.php:64
+#: index.php:113 list.php:149 search-all-brands.php:24 search-all-lists.php:49
+#: segments-list.php:64
 msgid "ID"
 msgstr "ID"
 
@@ -4522,7 +4530,7 @@ msgstr "Buscar todas las listas"
 msgid "Add"
 msgstr "Agregar"
 
-#: list.php:151 subscribers.php:444 subscribers.php:858
+#: list.php:151 search-all-lists.php:51 subscribers.php:453 subscribers.php:867
 msgid "Active"
 msgstr "Activo"
 
@@ -4534,7 +4542,7 @@ msgstr "Segs"
 msgid "ARs"
 msgstr "ARs"
 
-#: list.php:159
+#: list.php:159 search-all-lists.php:55
 msgid "Hide"
 msgstr "Ocultar"
 
@@ -4554,11 +4562,11 @@ msgstr "Ver autorespondedores de esta lista"
 msgid "Create autoresponders for this list"
 msgstr "Crear autorespondedores para esta lista"
 
-#: list.php:211 list.php:246
+#: list.php:211 list.php:246 search-all-lists.php:113 search-all-lists.php:144
 msgid "Unhide this list"
 msgstr "Mostrar esta lista"
 
-#: list.php:211 list.php:254
+#: list.php:211 list.php:254 search-all-lists.php:113 search-all-lists.php:152
 msgid "Hide this list"
 msgstr "Ocultar esta lista"
 
@@ -4570,11 +4578,11 @@ msgstr "No hay listas."
 msgid "Add one"
 msgstr "Agregar una"
 
-#: list.php:304
+#: list.php:304 search-all-lists.php:200
 msgid "Delete list"
 msgstr "Eliminar lista"
 
-#: list.php:307
+#: list.php:307 search-all-lists.php:203
 msgid ""
 "All subscribers, custom fields, autoresponders and segments in this list "
 "will be permanently deleted. Confirm delete <span id=\"list-to-delete\" "
@@ -4719,7 +4727,7 @@ msgstr "A"
 msgid "Excluded"
 msgstr "Descartado"
 
-#: report.php:392
+#: report.php:453
 msgid ""
 "Export a CSV of ALL subscribers who did not open this email (includes "
 "subscribers newly added to the lists after this campaign was sent)"
@@ -4728,7 +4736,7 @@ msgstr ""
 "correo electrónico (incluye suscriptores nuevos que se hayan sumado después "
 "de ser enviada la campaña)"
 
-#: report.php:393
+#: report.php:454
 msgid ""
 "Import ALL subscribers who did not open this email into a list (includes "
 "subscribers newly added to the lists after this campaign was sent)"
@@ -4737,39 +4745,39 @@ msgstr ""
 "electrónico (incluye suscriptores recién agregados a las listas después de "
 "que se envió esta campaña)"
 
-#: report.php:398
+#: report.php:459
 msgid "unique clicks"
 msgstr "clics únicos"
 
-#: report.php:483
+#: report.php:544
 msgid "Export a CSV of ALL subscribers who clicked this link"
 msgstr ""
 "Exportar un archivo CSV de TODOS los suscriptores que hicieron clic en este "
 "enlace"
 
-#: report.php:484
+#: report.php:545
 msgid "Import ALL subscribers who clicked this link into a list"
 msgstr ""
 "Importe a una lista a TODOS los suscriptores que hicieron clic en este enlace"
 
-#: report.php:656
+#: report.php:717
 msgid "Export a CSV of ALL subscribers who unsubscribed"
 msgstr ""
 "Exportar un archivo CSV de TODOS los suscriptores que se desuscribieron"
 
-#: report.php:728
+#: report.php:789
 msgid "No one unsubscribed from this campaign!"
 msgstr "¡Nadie se desuscribió de esta campaña!"
 
-#: report.php:749
+#: report.php:810
 msgid "Export a CSV of ALL subscribers who bounced"
 msgstr "Exportar un archivo CSV de TODOS los suscriptores que rebotaron"
 
-#: report.php:821
+#: report.php:882
 msgid "No emails bounced from this campaign!"
 msgstr "¡Ningún correo de esta campaña reboto!"
 
-#: report.php:844
+#: report.php:905
 msgid "Export a CSV of ALL subscribers who marked your email as spam"
 msgstr ""
 "Exportar un archivo CSV de TODOS los suscriptores que marcaron el correo "
@@ -4779,11 +4787,11 @@ msgstr ""
 msgid "Campaign reports"
 msgstr "Informes de campaña"
 
-#: reports.php:238 reports.php:240
+#: reports.php:240 reports.php:242
 msgid "There are no reports yet."
 msgstr "Aún no se encontraron reportes."
 
-#: reports.php:240
+#: reports.php:242
 msgid "Create your first campaign"
 msgstr "Crear su primera campaña"
 
@@ -5069,7 +5077,7 @@ msgid "URL of the autoresponder report"
 msgstr "URL del informe del autorespondedor"
 
 #: search-all-brands.php:16 search-all-lists.php:35 search-campaigns.php:61
-#: subscribers.php:383
+#: subscribers.php:392
 msgid "Keyword"
 msgstr "Palabra clave"
 
@@ -5088,32 +5096,48 @@ msgstr ""
 msgid "No brands found."
 msgstr "No se encontraron marcas."
 
-#: search-all-lists.php:48 search-all-lists.php:105 subscribers.php:491
-#: subscribers.php:562 unsubscribe-from-list.php:141
+#: search-all-lists.php:92
+msgid "lists"
+msgstr "listas"
+
+#: search-all-lists.php:92
+msgid "list"
+msgstr "lista"
+
+#: search-all-lists.php:182
+msgid "No lists found."
+msgstr "No se encontraron listas."
+
+#: search-all-lists.php:253 search-all-lists.php:311 subscribers.php:500
+#: subscribers.php:571 unsubscribe-from-list.php:141
 msgid "Unsubscribe"
 msgstr "Desuscribirse"
 
-#: search-all-lists.php:111 subscribers.php:568
+#: search-all-lists.php:262
+msgid "subscriber"
+msgstr "suscriptor"
+
+#: search-all-lists.php:317 subscribers.php:577
 msgid "Resubscribe"
 msgstr "Vovler a suscribirse"
 
-#: search-all-lists.php:121 subscribe.php:733 subscribers.php:578
+#: search-all-lists.php:327 subscribe.php:733 subscribers.php:587
 msgid "Confirm"
 msgstr "Confirmar"
 
-#: search-all-lists.php:165 subscribers.php:622
+#: search-all-lists.php:371 subscribers.php:631
 msgid "Sorry, unable to unsubscribe. Please try again later!"
 msgstr "No se pudo completar la suscripción"
 
-#: search-all-lists.php:180 subscribers.php:637
+#: search-all-lists.php:386 subscribers.php:646
 msgid "No subscribers found."
 msgstr "No se encontraron suscriptores."
 
-#: search-all-lists.php:201 subscribers.php:658
+#: search-all-lists.php:407 subscribers.php:667
 msgid "Delete subscriber"
 msgstr "Eliminar suscriptor"
 
-#: search-all-lists.php:204 subscribers.php:661
+#: search-all-lists.php:410 subscribers.php:670
 msgid ""
 "Delete <span id=\"email-to-delete\" style=\"font-weight:bold;\"></span> from "
 "'this list only' or 'ALL lists' in this brand?"
@@ -5121,11 +5145,11 @@ msgstr ""
 "¿Eliminar <span id=\"email-to-delete\" style=\"font-weight:bold;\"></span> "
 "de 'esta lista unicamente' o de 'TODAS las listas' pertenecientes a la marca?"
 
-#: search-all-lists.php:208 subscribers.php:664
+#: search-all-lists.php:414 subscribers.php:673
 msgid "This list only"
 msgstr "Únicamente esta lista"
 
-#: search-all-lists.php:209 subscribers.php:665
+#: search-all-lists.php:415 subscribers.php:674
 msgid "ALL lists in this brand"
 msgstr "TODAS las listas pertenecientes a la marca"
 
@@ -5142,7 +5166,7 @@ msgid "Please name your segment"
 msgstr "Ponga nombre a su segmento por favor"
 
 #: segment.php:70 segments-list.php:40 send-to.php:390 send-to.php:425
-#: send-to.php:496 send-to.php:531 subscribers.php:156
+#: send-to.php:496 send-to.php:531 subscribers.php:173
 msgid "Segments"
 msgstr "Segmentos"
 
@@ -5291,7 +5315,7 @@ msgstr "Para que los resultados de segmentación se actualizen automáticamente,
 msgid "setup a cron job"
 msgstr "configure un cron"
 
-#: segment.php:930 send-to.php:897 subscribers.php:760 update-list.php:233
+#: segment.php:930 send-to.php:897 subscribers.php:769 update-list.php:233
 msgid "Add a cron job"
 msgstr "Agregar un cron"
 
@@ -5300,11 +5324,11 @@ msgid "Add a cron job that runs every 15 minutes with the following command:"
 msgstr ""
 "Agregar un cron que corra cada 15 minutos aplicando el siguiente comando:"
 
-#: segment.php:934 send-to.php:901 subscribers.php:764 update-list.php:237
+#: segment.php:934 send-to.php:901 subscribers.php:773 update-list.php:237
 msgid "Time Interval"
 msgstr "Intervalo de tiempo"
 
-#: segment.php:936 send-to.php:903 subscribers.php:766 update-list.php:239
+#: segment.php:936 send-to.php:903 subscribers.php:775 update-list.php:239
 msgid "Command"
 msgstr "Comando"
 
@@ -5697,11 +5721,11 @@ msgstr ""
 "Para planificar el envío de campañas o asegurarse que el envío de correos "
 "sea más confiable, agregue un"
 
-#: send-to.php:900 subscribers.php:763 update-list.php:236
+#: send-to.php:900 subscribers.php:772 update-list.php:236
 msgid "cron job"
 msgstr "proceso cron"
 
-#: send-to.php:900 subscribers.php:763 update-list.php:236
+#: send-to.php:900 subscribers.php:772 update-list.php:236
 msgid "with the following command."
 msgstr "que incluya el siguiente comando."
 
@@ -6431,15 +6455,15 @@ msgstr "suscriptores que marcaron su correo como no deseado"
 msgid "GDPR subscribers"
 msgstr "Suscriptores GDPR"
 
-#: subscribers.php:152 subscribers.php:205
+#: subscribers.php:177 subscribers.php:214
 msgid "Subscribe form"
 msgstr "Formulario de suscripción"
 
-#: subscribers.php:210
+#: subscribers.php:219
 msgid "Ready-to-use subscribe form"
 msgstr "Formulario de suscripción listo para usar"
 
-#: subscribers.php:211
+#: subscribers.php:220
 msgid ""
 "The following is a 'ready-to-use' subscription form URL you can immediately "
 "use to collect sign ups to this list"
@@ -6447,29 +6471,29 @@ msgstr ""
 "El siguiente es un formulario de suscripción URL 'ready-to-use' con el que "
 "puede comenzar a recolectar altas para esta lista"
 
-#: subscribers.php:223
+#: subscribers.php:232
 msgid "The following is an embeddable subscribe form HTML code for this list"
 msgstr ""
 "El siguiente es un formulario de suscripción en código HTML insertable para "
 "esta lista"
 
-#: subscribers.php:249
+#: subscribers.php:258
 msgid "You can setup reCAPTCHA in the brand settings."
 msgstr "Puede establecer reCAPTCHA en la configuración de marca."
 
-#: subscribers.php:249
+#: subscribers.php:258
 msgid "You can setup reCAPTCHA in the main settings."
 msgstr "Puede establecer reCAPTCHA en la configuración principal."
 
-#: subscribers.php:249
+#: subscribers.php:258
 msgid "To subscribe users programmatically, use the API"
 msgstr "Para suscribir usuarios programáticamente, utilize la API"
 
-#: subscribers.php:256
+#: subscribers.php:265
 msgid "Enable GDPR fields"
 msgstr "Habilitar campos GDPR"
 
-#: subscribers.php:260
+#: subscribers.php:269
 msgid ""
 "The <a href=\"https://www.eugdpr.org/the-regulation.html\" target=\"_blank\" "
 "style=\"text-decoration: underline;\">General Data Protection Regulation "
@@ -6487,7 +6511,7 @@ msgstr ""
 "ciudadanos de la UE. Si usted recopila y procesa datos de usuarios de la UE, "
 "tenga en cuenta habilitar los campos GDPR."
 
-#: subscribers.php:262
+#: subscribers.php:271
 msgid ""
 "GDPR fields are supported in both the 'Ready-to-use subscribe form' and the "
 "embeddable 'Subscribe form HTML code' as seen on the left. When GDPR fields "
@@ -6505,60 +6529,60 @@ msgstr ""
 "va a hacer con la información que ellos envíen. Los usuarios están obligados "
 "a marcar la casilla para poder suscribirse."
 
-#: subscribers.php:266 subscription.php:206
+#: subscribers.php:275 subscription.php:206
 msgid "Marketing permission"
 msgstr "Permiso de comercialización"
 
-#: subscribers.php:268 subscription.php:208
+#: subscribers.php:277 subscription.php:208
 msgid "What to expect"
 msgstr "Qué esperar"
 
-#: subscribers.php:402
+#: subscribers.php:411
 msgid "Subscribers activity chart"
 msgstr "Gráfico de actividad de suscriptores"
 
-#: subscribers.php:402
+#: subscribers.php:411
 msgid "Click to learn more"
 msgstr "Haga clic para aprender más al respecto"
 
-#: subscribers.php:418
+#: subscribers.php:427
 msgid "emails were skipped or updated from your last import"
 msgstr ""
 "los correos electrónicos se omitieron o actualizaron desde su última "
 "importación"
 
-#: subscribers.php:418
+#: subscribers.php:427
 msgid "To see the list and reasons, export the CSV."
 msgstr "Para ver la lista y los motivos, exporte el archivo CSV."
 
-#: subscribers.php:418
+#: subscribers.php:427
 msgid "Export skipped email addresses from your last import"
 msgstr ""
 "El proceso de exportar omitió direcciones de correo de su última "
 "actualización"
 
-#: subscribers.php:421
+#: subscribers.php:430
 msgid "Dismiss this notice (CSV will no longer be available for download)"
 msgstr ""
 "Desestime este aviso (el archivo CSV dejará de estar disponible para bajarlo)"
 
-#: subscribers.php:421
+#: subscribers.php:430
 msgid "Dismiss"
 msgstr "Desestimar"
 
-#: subscribers.php:732
+#: subscribers.php:741
 msgid "What changes a subscriber's 'Last activity' timestamp?"
 msgstr ""
 "¿Por qué motivo se cambia la marca de tiempo referente a la 'Última "
 "actividad' de un suscriptor?"
 
-#: subscribers.php:735
+#: subscribers.php:744
 msgid "A subscriber's 'Last activity' timestamp is updated when the user:"
 msgstr ""
 "La marca de tiempo referente a la 'Última actividad' de un suscriptor se "
 "actualiza cuando el usuario:"
 
-#: subscribers.php:736
+#: subscribers.php:745
 msgid ""
 "• opened a campaign or autoresponder\n"
 "• clicked a link in a campaign or autoresponder\n"
@@ -6576,7 +6600,7 @@ msgstr ""
 "• marcó un correo como no deseado\n"
 "• confirmó una suscripción doble"
 
-#: subscribers.php:744
+#: subscribers.php:753
 msgid ""
 "Subscribers are sorted by 'Last activity' in the list. Therefore, "
 "subscribers who did any of the above activity will float to the top of the "
@@ -6588,11 +6612,11 @@ msgstr ""
 "enumeradas se moveran hacia el tope de la lista de suscriptores. También "
 "verá cambios reflejados en el 'Gráfico de actividad de suscriptores'."
 
-#: subscribers.php:763
+#: subscribers.php:772
 msgid "To activate autoresponders, add a"
 msgstr "Para activar autorespondedores, agregue un"
 
-#: subscribers.php:768
+#: subscribers.php:777
 msgid ""
 "This command needs to be run every minute in order to check the database for "
 "any autoresponder emails to send."
@@ -6600,7 +6624,7 @@ msgstr ""
 "Este comando necesita correr cada minuto para poder chequear la base de "
 "datos en busca de correos del autorespondedor pendientes de envío."
 
-#: subscribers.php:768
+#: subscribers.php:777
 msgid ""
 "Note that adding cron jobs vary from hosts to hosts, most offer a UI to add "
 "a cron job easily. Check your hosting control panel or consult your host if "
@@ -6611,7 +6635,7 @@ msgstr ""
 "Verifique el panel de control de su hosting o consulte con soporte si no "
 "sabe cómo hacerlo."
 
-#: subscribers.php:769
+#: subscribers.php:778
 msgid ""
 "Once added, wait one minute. If your cron job is functioning correctly, "
 "you'll see the autoresponder options instead of this modal window when you "
