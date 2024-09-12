@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sendy\n"
 "POT-Creation-Date: 2024-01-04 07:36+0800\n"
-"PO-Revision-Date: 2024-09-12 17:12-0300\n"
+"PO-Revision-Date: 2024-09-12 17:32-0300\n"
 "Last-Translator: Luciano Fantuzzi <luciano@lucianofantuzzi.com>\n"
 "Language-Team: Sendy <hello@sendy.co>\n"
 "Language: es\n"
@@ -387,7 +387,7 @@ msgstr "Aún no se crearon campañas"
 
 #: app.php:726
 msgid "Send one"
-msgstr "Enviar uno"
+msgstr "Enviar una"
 
 #: app.php:746 search-campaigns.php:583
 msgid "Duplicate on which brand?"
@@ -4793,7 +4793,7 @@ msgstr "Aún no se encontraron reportes."
 
 #: reports.php:242
 msgid "Create your first campaign"
-msgstr "Crear su primera campaña"
+msgstr "Cree su primera campaña"
 
 #: reset-cron-success.php:11
 msgid "Cron job statuses has been reset"
@@ -6671,7 +6671,7 @@ msgstr "Aún no se crearon plantillas"
 
 #: templates.php:108
 msgid "Create one"
-msgstr "Crear uno"
+msgstr "Crear una"
 
 #: templates.php:125
 msgid "Delete template"
